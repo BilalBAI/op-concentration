@@ -1,6 +1,7 @@
 # op-concentration
 Optimism Foundation Mission Request: Measuring the Concentration of Power in the Collective
 
+## Setup
 ```bash
 
 # Create the virtual environment with Python 3.12
@@ -22,5 +23,9 @@ python -m pip install -e .
 # Deactivate the virtual environment when done
 deactivate
 
+```
 
+## .env
+```bash
+DUNE_API_KEY=<>
 ```
