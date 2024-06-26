@@ -15,9 +15,7 @@ source op_env/bin/activate
 # Verify the Python version
 python --version
 
-pip install dune-client
-pip install pandas
-pip install python-dotenv
+python -m pip install -e .
 
 # Deactivate the virtual environment when done
 deactivate
