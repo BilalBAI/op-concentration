@@ -4,13 +4,13 @@ Optimism Foundation Mission Request: Measuring the Concentration of Power in the
 ```bash
 which python3.12
 # Create the virtual environment with Python 3.12
-python3.12 -m venv op_concen
+python3.12 -m venv op_env
 
 # Activate the virtual environment
 # Windows
-op_concen\Scripts\activate
+op_env\Scripts\activate
 # macOS / Linux
-source op_concen/bin/activate
+source op_env/bin/activate
 
 # Verify the Python version
 python --version
