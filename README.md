@@ -18,7 +18,7 @@ source op_env/bin/activate
 python --version
 
 # Install dependencies
-python -m pip install -e .
+pip install -r requirements.txt
 
 # Deactivate the virtual environment when done
 deactivate
