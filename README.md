@@ -28,4 +28,5 @@ deactivate
 ## .env
 ```bash
 DUNE_API_KEY=<>
+OPSCAN_API_KEY=<>
 ```
