@@ -1,5 +1,7 @@
 op_concen/
 op_env/
+data_analysis/raw_data
+.DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
