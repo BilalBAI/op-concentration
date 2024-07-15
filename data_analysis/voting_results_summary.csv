@@ -1,0 +1,420 @@
+,vote_type,proposal_id,title,voted_choice,voting_power
+0,citizen_house,0x0286e35a8799d3cf0c84784cd54debae258177b0c31408a48dc00c69b8d4a010,Season 2 Governance Fund Proposal: dHEDGE DAO,FOR,11371578.649509232
+1,citizen_house,0x0286e35a8799d3cf0c84784cd54debae258177b0c31408a48dc00c69b8d4a010,Season 2 Governance Fund Proposal: dHEDGE DAO,AGAINST,192777.0634021609
+2,citizen_house,0x0286e35a8799d3cf0c84784cd54debae258177b0c31408a48dc00c69b8d4a010,Season 2 Governance Fund Proposal: dHEDGE DAO,ABSTAIN,16455.831777252824
+3,citizen_house,0x037e4148cf8feb706c023108e1c82f9d765a6c6217dcef9ae367a672683820e9,Proposal B: Governance Phase 1 - Kromatika ,AGAINST,14080777.300650414
+4,citizen_house,0x037e4148cf8feb706c023108e1c82f9d765a6c6217dcef9ae367a672683820e9,Proposal B: Governance Phase 1 - Kromatika ,FOR,3024942.54971201
+5,citizen_house,0x037e4148cf8feb706c023108e1c82f9d765a6c6217dcef9ae367a672683820e9,Proposal B: Governance Phase 1 - Kromatika ,ABSTAIN,212523.7457159235
+6,citizen_house,0x05126c50a6227f339b64d712e6bf070c769f410bcd7cdbe62ba6493ab49b08e6,Season 2: Cycle 8: EthernautDAO,FOR,16181464.714532826
+7,citizen_house,0x05126c50a6227f339b64d712e6bf070c769f410bcd7cdbe62ba6493ab49b08e6,Season 2: Cycle 8: EthernautDAO,ABSTAIN,185693.02662236424
+8,citizen_house,0x05126c50a6227f339b64d712e6bf070c769f410bcd7cdbe62ba6493ab49b08e6,Season 2: Cycle 8: EthernautDAO,AGAINST,76181.39697004712
+9,citizen_house,0x066ab540856b7f00a42fbf5b96fbe627735b740bc009b356d69349afd023720f,Season 2: Cycle 8: Socket,FOR,15288051.667413872
+10,citizen_house,0x066ab540856b7f00a42fbf5b96fbe627735b740bc009b356d69349afd023720f,Season 2: Cycle 8: Socket,AGAINST,328844.05388765084
+11,citizen_house,0x066ab540856b7f00a42fbf5b96fbe627735b740bc009b356d69349afd023720f,Season 2: Cycle 8: Socket,ABSTAIN,30473.330380958203
+12,citizen_house,0x0a184f7fd0042e9e33ee545d0316b4d382f302a75806394e67dee4249b7dbd04,Season 2: Cycle 8: PoolTogether ,FOR,11828772.359385846
+13,citizen_house,0x0a184f7fd0042e9e33ee545d0316b4d382f302a75806394e67dee4249b7dbd04,Season 2: Cycle 8: PoolTogether ,ABSTAIN,2405489.7035967126
+14,citizen_house,0x0a184f7fd0042e9e33ee545d0316b4d382f302a75806394e67dee4249b7dbd04,Season 2: Cycle 8: PoolTogether ,AGAINST,1462043.9520836342
+15,citizen_house,0x0ad8db211cb1d64ce36c86415cdfdbb34d220622db187a12a85f4443a103dc1e,Season 2 Governance Fund Proposal: Otterspace,AGAINST,9578480.612406168
+16,citizen_house,0x0ad8db211cb1d64ce36c86415cdfdbb34d220622db187a12a85f4443a103dc1e,Season 2 Governance Fund Proposal: Otterspace,FOR,367945.5216588086
+17,citizen_house,0x0ad8db211cb1d64ce36c86415cdfdbb34d220622db187a12a85f4443a103dc1e,Season 2 Governance Fund Proposal: Otterspace,ABSTAIN,47063.85766987589
+18,citizen_house,0x0ddd965be7471ca3d399af6b845791d86c649389e22681df1f62473d01a9a5fd,Season 2 Governance Fund Proposal: Interest Protocol 2,FOR,11153999.667802045
+19,citizen_house,0x0ddd965be7471ca3d399af6b845791d86c649389e22681df1f62473d01a9a5fd,Season 2 Governance Fund Proposal: Interest Protocol 2,AGAINST,180348.59501453902
+20,citizen_house,0x0ddd965be7471ca3d399af6b845791d86c649389e22681df1f62473d01a9a5fd,Season 2 Governance Fund Proposal: Interest Protocol 2,ABSTAIN,8617.965396102227
+21,citizen_house,0x0f3592ac3e437870affacc5fc64ce3c266b5041e24a3a31e490021d00d8dbd7f,Proposal D: Governance Fund Phase 1 - Mean Finance,FOR,12265035.190995371
+22,citizen_house,0x0f3592ac3e437870affacc5fc64ce3c266b5041e24a3a31e490021d00d8dbd7f,Proposal D: Governance Fund Phase 1 - Mean Finance,AGAINST,5795673.998875363
+23,citizen_house,0x0f3592ac3e437870affacc5fc64ce3c266b5041e24a3a31e490021d00d8dbd7f,Proposal D: Governance Fund Phase 1 - Mean Finance,ABSTAIN,141044.7016089358
+24,citizen_house,0x1521d43b549216dddcc4d7628779097d0f22c93d8a63de4e9b7d26b102e0ae3b,NFT & Gaming Committee [Group A],FOR,11607511.389124766
+25,citizen_house,0x1521d43b549216dddcc4d7628779097d0f22c93d8a63de4e9b7d26b102e0ae3b,NFT & Gaming Committee [Group A],ABSTAIN,1954029.9315345404
+26,citizen_house,0x1521d43b549216dddcc4d7628779097d0f22c93d8a63de4e9b7d26b102e0ae3b,NFT & Gaming Committee [Group A],AGAINST,106569.23003603157
+27,citizen_house,0x1720f1321a94a97ba0c23a612d543465cbf6f31aa80c8dc0aa016d6285bd0c03,Season 2: Cycle 7: Karma (Delegate Dashboard),FOR,11608626.758879727
+28,citizen_house,0x1720f1321a94a97ba0c23a612d543465cbf6f31aa80c8dc0aa016d6285bd0c03,Season 2: Cycle 7: Karma (Delegate Dashboard),AGAINST,373182.4374180188
+29,citizen_house,0x1720f1321a94a97ba0c23a612d543465cbf6f31aa80c8dc0aa016d6285bd0c03,Season 2: Cycle 7: Karma (Delegate Dashboard),ABSTAIN,257291.24052338125
+30,citizen_house,0x1cb55b7daca38a37dfd2507218329fb5d7912ac5b237859c547dcea0115231d7,Proposal F: Governance Phase 1 - Infinity Wallet ,AGAINST,9621309.897063365
+31,citizen_house,0x1cb55b7daca38a37dfd2507218329fb5d7912ac5b237859c547dcea0115231d7,Proposal F: Governance Phase 1 - Infinity Wallet ,FOR,5409187.9104114715
+32,citizen_house,0x1cb55b7daca38a37dfd2507218329fb5d7912ac5b237859c547dcea0115231d7,Proposal F: Governance Phase 1 - Infinity Wallet ,ABSTAIN,3081912.174090266
+33,citizen_house,0x1fb511b257d51323afb133a795b7a43b33b652e5b1ee5a6fc674ee6383fc0f66,Proposal M: Governance Fund Phase 1 - 0xHabitat,AGAINST,14506564.696603421
+34,citizen_house,0x1fb511b257d51323afb133a795b7a43b33b652e5b1ee5a6fc674ee6383fc0f66,Proposal M: Governance Fund Phase 1 - 0xHabitat,FOR,2852358.902294297
+35,citizen_house,0x1fb511b257d51323afb133a795b7a43b33b652e5b1ee5a6fc674ee6383fc0f66,Proposal M: Governance Fund Phase 1 - 0xHabitat,ABSTAIN,41627.2700984205
+36,citizen_house,0x1fda82a16813cb299b031a6a543550f2cd792dd47168671519d9ae5d40351667,Season 2 Governance Fund Proposal: Revert Compoundor,FOR,11474458.21386239
+37,citizen_house,0x1fda82a16813cb299b031a6a543550f2cd792dd47168671519d9ae5d40351667,Season 2 Governance Fund Proposal: Revert Compoundor,AGAINST,58354.464823150294
+38,citizen_house,0x1fda82a16813cb299b031a6a543550f2cd792dd47168671519d9ae5d40351667,Season 2 Governance Fund Proposal: Revert Compoundor,ABSTAIN,58099.58384871472
+39,citizen_house,0x2102ea7e303e9ed17a64a6b159cd12416338106be6c449b36a89051a83b76b88,Proposal I: Governance Phase 1 - Qi Dao,FOR,15032308.253404709
+40,citizen_house,0x2102ea7e303e9ed17a64a6b159cd12416338106be6c449b36a89051a83b76b88,Proposal I: Governance Phase 1 - Qi Dao,ABSTAIN,1566021.9373283235
+41,citizen_house,0x2102ea7e303e9ed17a64a6b159cd12416338106be6c449b36a89051a83b76b88,Proposal I: Governance Phase 1 - Qi Dao,AGAINST,990802.7358526269
+42,citizen_house,0x219e6f3cc726c24e7eb100959abea6cc3a5c24a24ffec3072a7784d33f030096,Proposal A: Governance Phase 1 - Rocket Pool,FOR,17908270.53145365
+43,citizen_house,0x219e6f3cc726c24e7eb100959abea6cc3a5c24a24ffec3072a7784d33f030096,Proposal A: Governance Phase 1 - Rocket Pool,ABSTAIN,1129916.1856257182
+44,citizen_house,0x219e6f3cc726c24e7eb100959abea6cc3a5c24a24ffec3072a7784d33f030096,Proposal A: Governance Phase 1 - Rocket Pool,AGAINST,75357.59054985843
+45,citizen_house,0x22d4c3ab56832de58c1774d1a0aeb61ba6dde8b16c0f8382f85d8935f3ee1f11,Badgeholder Nomination Voting,MULTIPLE,12874009.498810919
+46,citizen_house,0x2a1c563340067fd135847b66c89b5f81ef96c126708336737ad946c128aae440,DeFi Committee [Group B],FOR,6262415.909082556
+47,citizen_house,0x2a1c563340067fd135847b66c89b5f81ef96c126708336737ad946c128aae440,DeFi Committee [Group B],ABSTAIN,5685903.190997782
+48,citizen_house,0x2a1c563340067fd135847b66c89b5f81ef96c126708336737ad946c128aae440,DeFi Committee [Group B],AGAINST,267375.85385330545
+49,citizen_house,0x2a7436c5bebeaee1a369e484a212a183da549dfce0393d6dc1f84837e8c5c79d,Season 2: Cycle 8: Mochi,FOR,15169759.193175927
+50,citizen_house,0x2a7436c5bebeaee1a369e484a212a183da549dfce0393d6dc1f84837e8c5c79d,Season 2: Cycle 8: Mochi,AGAINST,565491.6435349708
+51,citizen_house,0x2a7436c5bebeaee1a369e484a212a183da549dfce0393d6dc1f84837e8c5c79d,Season 2: Cycle 8: Mochi,ABSTAIN,61538.41386404836
+52,citizen_house,0x2a83d049054285cc7bb9c89599d469045b76d29d7ace9928ab2b05bd01a72aed,Proposal D: Governance Phase 1 - Biconomy ,FOR,17172093.039002772
+53,citizen_house,0x2a83d049054285cc7bb9c89599d469045b76d29d7ace9928ab2b05bd01a72aed,Proposal D: Governance Phase 1 - Biconomy ,AGAINST,241871.17686424142
+54,citizen_house,0x2a83d049054285cc7bb9c89599d469045b76d29d7ace9928ab2b05bd01a72aed,Proposal D: Governance Phase 1 - Biconomy ,ABSTAIN,34436.95885555469
+55,citizen_house,0x2ca1c70f1d1ba224eba07d4dbb716e7ec42503f3c64d5682f9da12e37bde2c58,Proposal B: dForce,FOR,17578799.59760228
+56,citizen_house,0x2ca1c70f1d1ba224eba07d4dbb716e7ec42503f3c64d5682f9da12e37bde2c58,Proposal B: dForce,AGAINST,704094.9114287207
+57,citizen_house,0x2ca1c70f1d1ba224eba07d4dbb716e7ec42503f3c64d5682f9da12e37bde2c58,Proposal B: dForce,ABSTAIN,43764.59442848795
+58,citizen_house,0x2ec590658618c2046565939f534284e7a431476af082bfee00505617145b5580,Season 2: Cycle 7: LI.FI,FOR,9198149.923533497
+59,citizen_house,0x2ec590658618c2046565939f534284e7a431476af082bfee00505617145b5580,Season 2: Cycle 7: LI.FI,ABSTAIN,3280562.861045496
+60,citizen_house,0x2ec590658618c2046565939f534284e7a431476af082bfee00505617145b5580,Season 2: Cycle 7: LI.FI,AGAINST,120881.29435216445
+61,citizen_house,0x2ed941a8f36683066228c88758dfa4b34b923f34a81116f663d2b628da566fb6,Season 2: Cycle 8: Homora,AGAINST,10787969.236796599
+62,citizen_house,0x2ed941a8f36683066228c88758dfa4b34b923f34a81116f663d2b628da566fb6,Season 2: Cycle 8: Homora,ABSTAIN,2087896.219848847
+63,citizen_house,0x2ed941a8f36683066228c88758dfa4b34b923f34a81116f663d2b628da566fb6,Season 2: Cycle 8: Homora,FOR,1160727.4411281657
+64,citizen_house,0x36cdf280fe8c3760561e76d57a9e7022cb383e789ce80b70ed791c6a68166afb,Proposal I: Governance Phase 1 - Saddle Finance ,AGAINST,10465755.060282774
+65,citizen_house,0x36cdf280fe8c3760561e76d57a9e7022cb383e789ce80b70ed791c6a68166afb,Proposal I: Governance Phase 1 - Saddle Finance ,ABSTAIN,3553601.3770509334
+66,citizen_house,0x36cdf280fe8c3760561e76d57a9e7022cb383e789ce80b70ed791c6a68166afb,Proposal I: Governance Phase 1 - Saddle Finance ,FOR,3386850.9569745925
+67,citizen_house,0x36d5040034131d5a52e9c482e149dde4d5b3083dce8b9eb990d07d9d99b927b4,Season 2: Cycle 7: Otterspace,FOR,11147777.633860761
+68,citizen_house,0x36d5040034131d5a52e9c482e149dde4d5b3083dce8b9eb990d07d9d99b927b4,Season 2: Cycle 7: Otterspace,AGAINST,775097.5935151683
+69,citizen_house,0x36d5040034131d5a52e9c482e149dde4d5b3083dce8b9eb990d07d9d99b927b4,Season 2: Cycle 7: Otterspace,ABSTAIN,267874.63973243564
+70,citizen_house,0x37b4b290553e80575b7ca6bb44a82ec9c0b67427e9c0b5056849b8c1b9251f1f,Proposal B: Governance Fund Phase 0 - Uniswap,FOR,17750223.018807266
+71,citizen_house,0x37b4b290553e80575b7ca6bb44a82ec9c0b67427e9c0b5056849b8c1b9251f1f,Proposal B: Governance Fund Phase 0 - Uniswap,AGAINST,6207406.269874835
+72,citizen_house,0x37d5038262ef8a6eac1d6e107a5d8c80e0e05e278af5598064ba7c473fd66ff0,Season 2: Cycle 7: Alchemix,AGAINST,11535053.648453526
+73,citizen_house,0x37d5038262ef8a6eac1d6e107a5d8c80e0e05e278af5598064ba7c473fd66ff0,Season 2: Cycle 7: Alchemix,ABSTAIN,649787.6146063507
+74,citizen_house,0x37d5038262ef8a6eac1d6e107a5d8c80e0e05e278af5598064ba7c473fd66ff0,Season 2: Cycle 7: Alchemix,FOR,371080.0756892345
+75,citizen_house,0x37fc8a6ae60cff2e4e72fe9c0567f739bb9a78262c2ada236892fcbc7af2c32d,Special Voting Cycle #9a: Grants Council,FOR,15053954.766570196
+76,citizen_house,0x37fc8a6ae60cff2e4e72fe9c0567f739bb9a78262c2ada236892fcbc7af2c32d,Special Voting Cycle #9a: Grants Council,ABSTAIN,192362.9686588155
+77,citizen_house,0x37fc8a6ae60cff2e4e72fe9c0567f739bb9a78262c2ada236892fcbc7af2c32d,Special Voting Cycle #9a: Grants Council,AGAINST,27424.81149608941
+78,citizen_house,0x3a1f9a30c47d6060f3b732404f3a6b2ceba3da07be0505ef0f93b6dab7fa3185,Special Voting Cycle #9a: Protocol Delegation Program,FOR,14982473.206278317
+79,citizen_house,0x3a1f9a30c47d6060f3b732404f3a6b2ceba3da07be0505ef0f93b6dab7fa3185,Special Voting Cycle #9a: Protocol Delegation Program,AGAINST,218171.89212436994
+80,citizen_house,0x3a1f9a30c47d6060f3b732404f3a6b2ceba3da07be0505ef0f93b6dab7fa3185,Special Voting Cycle #9a: Protocol Delegation Program,ABSTAIN,180282.3173643461
+81,citizen_house,0x3c5603522d6a957b2445f690f6952290d5cc0efb0a28eb3e1f44af599ba9693f,Proposal G: Governance Phase 1 - Dexguru ,AGAINST,16069346.576697575
+82,citizen_house,0x3c5603522d6a957b2445f690f6952290d5cc0efb0a28eb3e1f44af599ba9693f,Proposal G: Governance Phase 1 - Dexguru ,FOR,679383.7514529014
+83,citizen_house,0x3c5603522d6a957b2445f690f6952290d5cc0efb0a28eb3e1f44af599ba9693f,Proposal G: Governance Phase 1 - Dexguru ,ABSTAIN,58669.84601501931
+84,citizen_house,0x408ac8d6e74febd74a11371d66ba40ab58fcaf0eb70c34c449731651e0222d32,Proposal G: Governance Fund Phase 1 - Summa,AGAINST,14022036.288881775
+85,citizen_house,0x408ac8d6e74febd74a11371d66ba40ab58fcaf0eb70c34c449731651e0222d32,Proposal G: Governance Fund Phase 1 - Summa,ABSTAIN,3219770.965802407
+86,citizen_house,0x408ac8d6e74febd74a11371d66ba40ab58fcaf0eb70c34c449731651e0222d32,Proposal G: Governance Fund Phase 1 - Summa,FOR,378094.1094017974
+87,citizen_house,0x474cbf8c806f30d016ea4ca0ad3fb5605391df6a3fa34a1aead7df61a9e4cc28,Season 2: Cycle 8: Agora,FOR,15316702.185844291
+88,citizen_house,0x474cbf8c806f30d016ea4ca0ad3fb5605391df6a3fa34a1aead7df61a9e4cc28,Season 2: Cycle 8: Agora,ABSTAIN,310935.60315506614
+89,citizen_house,0x474cbf8c806f30d016ea4ca0ad3fb5605391df6a3fa34a1aead7df61a9e4cc28,Season 2: Cycle 8: Agora,AGAINST,115581.48451671087
+90,citizen_house,0x4e3e7bec358c9e2fc2f6b24be15cbd2bc13e31c1eff82151e6566b6b779ffbd4,Season 2: Cycle 8: Arrakis ,AGAINST,12188566.811318947
+91,citizen_house,0x4e3e7bec358c9e2fc2f6b24be15cbd2bc13e31c1eff82151e6566b6b779ffbd4,Season 2: Cycle 8: Arrakis ,ABSTAIN,913080.3497694983
+92,citizen_house,0x4e3e7bec358c9e2fc2f6b24be15cbd2bc13e31c1eff82151e6566b6b779ffbd4,Season 2: Cycle 8: Arrakis ,FOR,375572.09919085266
+93,citizen_house,0x58c408348473856bdd0f8fcdde26936a3f828a33bdb91d5a5e4286237c9ba397,DeFi Committee [Group A],FOR,9162108.635132099
+94,citizen_house,0x58c408348473856bdd0f8fcdde26936a3f828a33bdb91d5a5e4286237c9ba397,DeFi Committee [Group A],ABSTAIN,5157486.110662232
+95,citizen_house,0x58c408348473856bdd0f8fcdde26936a3f828a33bdb91d5a5e4286237c9ba397,DeFi Committee [Group A],AGAINST,127038.84403916184
+96,citizen_house,0x59019f6c2d82b7a2f66d19ef08997a99be48527fcc55b6b597a8be0d270cc5a4,Proposal B: Governance Phase 1 - Boardroom,FOR,18118327.701673195
+97,citizen_house,0x59019f6c2d82b7a2f66d19ef08997a99be48527fcc55b6b597a8be0d270cc5a4,Proposal B: Governance Phase 1 - Boardroom,AGAINST,137011.8183213361
+98,citizen_house,0x59019f6c2d82b7a2f66d19ef08997a99be48527fcc55b6b597a8be0d270cc5a4,Proposal B: Governance Phase 1 - Boardroom,ABSTAIN,82620.68850940437
+99,citizen_house,0x5a35edacc5f2412fbcceb778c671a0a94b76b700812e89212dab9e01255cdf00,Proposal C: Governance Fund Phase 1 - GYSR ,AGAINST,15545497.463265732
+100,citizen_house,0x5a35edacc5f2412fbcceb778c671a0a94b76b700812e89212dab9e01255cdf00,Proposal C: Governance Fund Phase 1 - GYSR ,ABSTAIN,2189323.947589658
+101,citizen_house,0x5a35edacc5f2412fbcceb778c671a0a94b76b700812e89212dab9e01255cdf00,Proposal C: Governance Fund Phase 1 - GYSR ,FOR,448584.98692010046
+102,citizen_house,0x5d3f7aca80dac05c70eae279551d3c8baed64fdfbc52c7cd1e7dfeeba6baf207,Tooling & Infrastructure Committee [Group A],FOR,11499281.810137076
+103,citizen_house,0x5d3f7aca80dac05c70eae279551d3c8baed64fdfbc52c7cd1e7dfeeba6baf207,Tooling & Infrastructure Committee [Group A],ABSTAIN,2642994.6881791274
+104,citizen_house,0x5d3f7aca80dac05c70eae279551d3c8baed64fdfbc52c7cd1e7dfeeba6baf207,Tooling & Infrastructure Committee [Group A],AGAINST,64120.59171042435
+105,citizen_house,0x5e8280af9c314519d63093f2bffe7194e469e0d0bf1c89e828c63d1469166866,Proposal E: Governance Fund Phase 1 - Raptor,AGAINST,17509493.85658589
+106,citizen_house,0x5e8280af9c314519d63093f2bffe7194e469e0d0bf1c89e828c63d1469166866,Proposal E: Governance Fund Phase 1 - Raptor,FOR,576652.5748367108
+107,citizen_house,0x5e8280af9c314519d63093f2bffe7194e469e0d0bf1c89e828c63d1469166866,Proposal E: Governance Fund Phase 1 - Raptor,ABSTAIN,82599.2072300657
+108,citizen_house,0x5efa2c3fe01997cfc5e6aef5911ccb46f6ea1a383d287cc1289671c86bfcd158,Proposal J: Governance Fund Phase 1 - Ooki Protocol,AGAINST,17118763.74708569
+109,citizen_house,0x5efa2c3fe01997cfc5e6aef5911ccb46f6ea1a383d287cc1289671c86bfcd158,Proposal J: Governance Fund Phase 1 - Ooki Protocol,FOR,417235.01155027776
+110,citizen_house,0x5efa2c3fe01997cfc5e6aef5911ccb46f6ea1a383d287cc1289671c86bfcd158,Proposal J: Governance Fund Phase 1 - Ooki Protocol,ABSTAIN,43631.85923263376
+111,citizen_house,0x61860171c5cbbd4ebec5e4a778d58f979e13e7f4657998defcee5fe46db3f54f,Season 2: Cycle 8: Symphony ,AGAINST,11966307.704316646
+112,citizen_house,0x61860171c5cbbd4ebec5e4a778d58f979e13e7f4657998defcee5fe46db3f54f,Season 2: Cycle 8: Symphony ,ABSTAIN,3510296.2970365826
+113,citizen_house,0x61860171c5cbbd4ebec5e4a778d58f979e13e7f4657998defcee5fe46db3f54f,Season 2: Cycle 8: Symphony ,FOR,142128.06087840078
+114,citizen_house,0x625e70dcff35be042778684d66cb3e24efd35bdc4222d263047afd2699188fb6,Proposal A: Governance Phase 1 - Superfluid ,FOR,16364376.713439858
+115,citizen_house,0x625e70dcff35be042778684d66cb3e24efd35bdc4222d263047afd2699188fb6,Proposal A: Governance Phase 1 - Superfluid ,AGAINST,478707.2653536327
+116,citizen_house,0x625e70dcff35be042778684d66cb3e24efd35bdc4222d263047afd2699188fb6,Proposal A: Governance Phase 1 - Superfluid ,ABSTAIN,176114.71090638445
+117,citizen_house,0x638f2adbeded3a0409ea238610753a86c78d4c4cc5569565139c350f58ba944b,Season 2: Cycle 7: Sushiswap,FOR,12131023.061622074
+118,citizen_house,0x638f2adbeded3a0409ea238610753a86c78d4c4cc5569565139c350f58ba944b,Season 2: Cycle 7: Sushiswap,ABSTAIN,304047.691447833
+119,citizen_house,0x638f2adbeded3a0409ea238610753a86c78d4c4cc5569565139c350f58ba944b,Season 2: Cycle 7: Sushiswap,AGAINST,154934.6442153238
+120,citizen_house,0x6951c9f971fc7cf939ef9f3b6ce49494a08c53bd617700b5ea46a497c3693c4c,Season 2: Cycle 7: Safe,ABSTAIN,6592910.490348103
+121,citizen_house,0x6951c9f971fc7cf939ef9f3b6ce49494a08c53bd617700b5ea46a497c3693c4c,Season 2: Cycle 7: Safe,FOR,5733512.754795888
+122,citizen_house,0x6951c9f971fc7cf939ef9f3b6ce49494a08c53bd617700b5ea46a497c3693c4c,Season 2: Cycle 7: Safe,AGAINST,339170.06203151966
+123,citizen_house,0x6bccf3a1f627aa4056c921f8551683c82f3a4e0d3c831840d5738c1748f78790,Proposal K: Governance Fund Phase 1 - Infinity Wallet,AGAINST,7308776.68141855
+124,citizen_house,0x6bccf3a1f627aa4056c921f8551683c82f3a4e0d3c831840d5738c1748f78790,Proposal K: Governance Fund Phase 1 - Infinity Wallet,FOR,6770776.568601979
+125,citizen_house,0x6bccf3a1f627aa4056c921f8551683c82f3a4e0d3c831840d5738c1748f78790,Proposal K: Governance Fund Phase 1 - Infinity Wallet,ABSTAIN,3364915.9404373392
+126,citizen_house,0x6cc31c08dd7b59a516934fbab9f5fd355d9c92d5a438cc9474df65b9f7edd545,Season 2: Cycle 7: Rainbow Wallet,FOR,11739540.768478338
+127,citizen_house,0x6cc31c08dd7b59a516934fbab9f5fd355d9c92d5a438cc9474df65b9f7edd545,Season 2: Cycle 7: Rainbow Wallet,AGAINST,781123.7622475083
+128,citizen_house,0x6cc31c08dd7b59a516934fbab9f5fd355d9c92d5a438cc9474df65b9f7edd545,Season 2: Cycle 7: Rainbow Wallet,ABSTAIN,26428.419032533122
+129,citizen_house,0x710d91f3922cdb86359e751efe7c702826892b4f6d79217366bccda6a7e6d7d4,Season 2 Governance Fund Proposal: Socket,AGAINST,9229374.461609608
+130,citizen_house,0x710d91f3922cdb86359e751efe7c702826892b4f6d79217366bccda6a7e6d7d4,Season 2 Governance Fund Proposal: Socket,FOR,1989682.5905309964
+131,citizen_house,0x710d91f3922cdb86359e751efe7c702826892b4f6d79217366bccda6a7e6d7d4,Season 2 Governance Fund Proposal: Socket,ABSTAIN,596184.5107366585
+132,citizen_house,0x71f465ebc109ddbda430a6a0312a43c324d0653624eb22e126e7503681dceb10,Season 2: Cycle 8: Ambire Wallet,AGAINST,7700499.708149696
+133,citizen_house,0x71f465ebc109ddbda430a6a0312a43c324d0653624eb22e126e7503681dceb10,Season 2: Cycle 8: Ambire Wallet,ABSTAIN,6466496.828556234
+134,citizen_house,0x71f465ebc109ddbda430a6a0312a43c324d0653624eb22e126e7503681dceb10,Season 2: Cycle 8: Ambire Wallet,FOR,488949.6523526258
+135,citizen_house,0x7c2da0957e9e7660f9f6219c05291c0907bed79c10b6da15a95416e68cbb4ac1,Season 2 Governance Fund Proposal: OptiChads,FOR,11613004.027471043
+136,citizen_house,0x7c2da0957e9e7660f9f6219c05291c0907bed79c10b6da15a95416e68cbb4ac1,Season 2 Governance Fund Proposal: OptiChads,AGAINST,286487.3714472146
+137,citizen_house,0x7c2da0957e9e7660f9f6219c05291c0907bed79c10b6da15a95416e68cbb4ac1,Season 2 Governance Fund Proposal: OptiChads,ABSTAIN,228234.0593170021
+138,citizen_house,0x7fcc9c9537a7061bae91a25b9dfa4c995a4618e1d7bb9b034b79ab5c214fb3e8,Season 2: Cycle 7: Overtime Markets,FOR,5677264.170483301
+139,citizen_house,0x7fcc9c9537a7061bae91a25b9dfa4c995a4618e1d7bb9b034b79ab5c214fb3e8,Season 2: Cycle 7: Overtime Markets,AGAINST,3003078.6259741206
+140,citizen_house,0x7fcc9c9537a7061bae91a25b9dfa4c995a4618e1d7bb9b034b79ab5c214fb3e8,Season 2: Cycle 7: Overtime Markets,ABSTAIN,2699880.88137443
+141,citizen_house,0x8160b000b3c2977889daf8ea63a7ead186efde83376c00e9dac3269fb4dcd544,Season 2: Cycle 8:  InsureDAO,FOR,12353913.23909524
+142,citizen_house,0x8160b000b3c2977889daf8ea63a7ead186efde83376c00e9dac3269fb4dcd544,Season 2: Cycle 8:  InsureDAO,AGAINST,692403.2512181019
+143,citizen_house,0x8160b000b3c2977889daf8ea63a7ead186efde83376c00e9dac3269fb4dcd544,Season 2: Cycle 8:  InsureDAO,ABSTAIN,241762.86054912693
+144,citizen_house,0x84f200a727f9df8f7718f1bb8ba8b75f987dab145873656242d1fe1dda98c427,Proposal H: Governance Phase 1 - BarnBridge,AGAINST,15766648.215797875
+145,citizen_house,0x84f200a727f9df8f7718f1bb8ba8b75f987dab145873656242d1fe1dda98c427,Proposal H: Governance Phase 1 - BarnBridge,FOR,594927.3037546123
+146,citizen_house,0x84f200a727f9df8f7718f1bb8ba8b75f987dab145873656242d1fe1dda98c427,Proposal H: Governance Phase 1 - BarnBridge,ABSTAIN,131336.60154024014
+147,citizen_house,0x86ccfd9ccce609cb27fdbd5b8344a8fee67805d896e75cbe127185c8d94656f1,Season 2 Governance Fund Proposal: Kromatika ,FOR,7360003.315811037
+148,citizen_house,0x86ccfd9ccce609cb27fdbd5b8344a8fee67805d896e75cbe127185c8d94656f1,Season 2 Governance Fund Proposal: Kromatika ,ABSTAIN,2744434.404645366
+149,citizen_house,0x86ccfd9ccce609cb27fdbd5b8344a8fee67805d896e75cbe127185c8d94656f1,Season 2 Governance Fund Proposal: Kromatika ,AGAINST,2170383.3903860087
+150,citizen_house,0x88583c43b196ec86cee45345611b582108f1d6933ab688a7cae992a6baa552a6,Title: Special Voting Cycle #9b: Protocol Delegation Elections ,MULTIPLE,14629207.206239361
+151,citizen_house,0x89ca6f762851897d1662f91284163d10a159fb22ba5c7a1f764338189824b038,Proposal F: Governance Fund Phase 1 - Balancer & BeethovenX,FOR,18143077.51329798
+152,citizen_house,0x89ca6f762851897d1662f91284163d10a159fb22ba5c7a1f764338189824b038,Proposal F: Governance Fund Phase 1 - Balancer & BeethovenX,ABSTAIN,330434.97279250744
+153,citizen_house,0x89ca6f762851897d1662f91284163d10a159fb22ba5c7a1f764338189824b038,Proposal F: Governance Fund Phase 1 - Balancer & BeethovenX,AGAINST,313597.5164732088
+154,citizen_house,0x8a117727a5655a7aafe6ddada24be5fe63c68450c7cd70b755d84480b554fcb1,Proposal A: Optimistic Railway,AGAINST,12355716.17785128
+155,citizen_house,0x8a117727a5655a7aafe6ddada24be5fe63c68450c7cd70b755d84480b554fcb1,Proposal A: Optimistic Railway,FOR,5352366.828375723
+156,citizen_house,0x8a117727a5655a7aafe6ddada24be5fe63c68450c7cd70b755d84480b554fcb1,Proposal A: Optimistic Railway,ABSTAIN,819233.4665960367
+157,citizen_house,0x8bd10fa2a38047fb65c6c4138cfed3f180fd9075888cac6d7f783728f4d93ae3,DeFi Committee [Group C],FOR,6825815.39536215
+158,citizen_house,0x8bd10fa2a38047fb65c6c4138cfed3f180fd9075888cac6d7f783728f4d93ae3,DeFi Committee [Group C],ABSTAIN,5802668.556453626
+159,citizen_house,0x8bd10fa2a38047fb65c6c4138cfed3f180fd9075888cac6d7f783728f4d93ae3,DeFi Committee [Group C],AGAINST,631486.4516135335
+160,citizen_house,0x8d9f64ad44887ec43ecba44ca605912ab541ccff49012691f4a1e0c1b7ec9b05,Season 2: Cycle 7: Tarot,FOR,11871864.040982699
+161,citizen_house,0x8d9f64ad44887ec43ecba44ca605912ab541ccff49012691f4a1e0c1b7ec9b05,Season 2: Cycle 7: Tarot,AGAINST,204972.31671790138
+162,citizen_house,0x8d9f64ad44887ec43ecba44ca605912ab541ccff49012691f4a1e0c1b7ec9b05,Season 2: Cycle 7: Tarot,ABSTAIN,62406.99369003062
+163,citizen_house,0x8ebe3b30462211e55f7f2d0ba60126f810c3a330b2b8aa935ea0f4c05dacb257,Proposal H: Governance Fund Phase 1 - WardenSwap,FOR,9261556.567307515
+164,citizen_house,0x8ebe3b30462211e55f7f2d0ba60126f810c3a330b2b8aa935ea0f4c05dacb257,Proposal H: Governance Fund Phase 1 - WardenSwap,AGAINST,4185297.8915883154
+165,citizen_house,0x8ebe3b30462211e55f7f2d0ba60126f810c3a330b2b8aa935ea0f4c05dacb257,Proposal H: Governance Fund Phase 1 - WardenSwap,ABSTAIN,3104340.6935514663
+166,citizen_house,0x8ef075d11b27be16304a97956e821bb34468556b6221990c67aa8c805e8c96a2,Proposal Q: Governance Fund Phase 1 - Candide,FOR,10004605.458958425
+167,citizen_house,0x8ef075d11b27be16304a97956e821bb34468556b6221990c67aa8c805e8c96a2,Proposal Q: Governance Fund Phase 1 - Candide,AGAINST,7997161.8729775725
+168,citizen_house,0x8ef075d11b27be16304a97956e821bb34468556b6221990c67aa8c805e8c96a2,Proposal Q: Governance Fund Phase 1 - Candide,ABSTAIN,49459.80042037245
+169,citizen_house,0x95cb4cbd872dfa3ab9490fff6736b90e518faba120dacb7035ded44aff622757,Proposal A: Governance Fund Phase 0 - Batch Vote,FOR,19911994.11422237
+170,citizen_house,0x95cb4cbd872dfa3ab9490fff6736b90e518faba120dacb7035ded44aff622757,Proposal A: Governance Fund Phase 0 - Batch Vote,AGAINST,5081796.627571682
+171,citizen_house,0xa37475924ddd3a55b875da4f852b3498176cc590f6776440ab1225e63fe2e25f,Proposal C: Governance Fund Phase 0 - 0x,FOR,16655818.70838833
+172,citizen_house,0xa37475924ddd3a55b875da4f852b3498176cc590f6776440ab1225e63fe2e25f,Proposal C: Governance Fund Phase 0 - 0x,AGAINST,4523491.835677789
+173,citizen_house,0xa497af11ab31e638d38bcf6d57689a5729bf66ee1c3fd89f20bcd7d9e6fa6d4b,Proposal E: Governance Phase 1 - Dope Wars ,AGAINST,12315788.07499175
+174,citizen_house,0xa497af11ab31e638d38bcf6d57689a5729bf66ee1c3fd89f20bcd7d9e6fa6d4b,Proposal E: Governance Phase 1 - Dope Wars ,FOR,4925594.551444928
+175,citizen_house,0xa497af11ab31e638d38bcf6d57689a5729bf66ee1c3fd89f20bcd7d9e6fa6d4b,Proposal E: Governance Phase 1 - Dope Wars ,ABSTAIN,35409.26404142225
+176,citizen_house,0xa5e1b6d13f305ae07d3f3e8bd7494ab55313fce6ee386d477295c8ce4b859614,Proposal E: Governance Phase 1 - Byte Mason Product Suite,AGAINST,7890680.350953059
+177,citizen_house,0xa5e1b6d13f305ae07d3f3e8bd7494ab55313fce6ee386d477295c8ce4b859614,Proposal E: Governance Phase 1 - Byte Mason Product Suite,ABSTAIN,7221451.899521289
+178,citizen_house,0xa5e1b6d13f305ae07d3f3e8bd7494ab55313fce6ee386d477295c8ce4b859614,Proposal E: Governance Phase 1 - Byte Mason Product Suite,FOR,3745051.478426656
+179,citizen_house,0xa9457a5344747a6c272de786419fc7a4e83fcf0f927ef9b1ce767452faa9b453,Title: Special Voting Cycle #9b: Grants Council Elections - Growth Experiments ,MULTIPLE,16481503.661784394
+180,citizen_house,0xac7ba616ebee96930f313ddb4b75de9024ff88f17bf3c82ca783d904ab38d551,Season 2 Governance Fund Proposal: Bankless Academy v2 ,FOR,11271773.422163937
+181,citizen_house,0xac7ba616ebee96930f313ddb4b75de9024ff88f17bf3c82ca783d904ab38d551,Season 2 Governance Fund Proposal: Bankless Academy v2 ,AGAINST,311181.2615139253
+182,citizen_house,0xac7ba616ebee96930f313ddb4b75de9024ff88f17bf3c82ca783d904ab38d551,Season 2 Governance Fund Proposal: Bankless Academy v2 ,ABSTAIN,189723.96747296976
+183,citizen_house,0xb321a0cb19147a75ccca41d482594d785673b767593a0d25964c7ec9a3358128,Proposal H: Governance Phase 1 - Overnight.fi ,AGAINST,15324619.919129882
+184,citizen_house,0xb321a0cb19147a75ccca41d482594d785673b767593a0d25964c7ec9a3358128,Proposal H: Governance Phase 1 - Overnight.fi ,FOR,935682.0100732545
+185,citizen_house,0xb321a0cb19147a75ccca41d482594d785673b767593a0d25964c7ec9a3358128,Proposal H: Governance Phase 1 - Overnight.fi ,ABSTAIN,868931.0282783512
+186,citizen_house,0xb4e35ca76ff5696570631fe3ae38fd8c268a081e1b0f0a7614d1779a4ebdbc33,Proposal L: Governance Fund Phase 1 - Beefy,AGAINST,16379171.667115098
+187,citizen_house,0xb4e35ca76ff5696570631fe3ae38fd8c268a081e1b0f0a7614d1779a4ebdbc33,Proposal L: Governance Fund Phase 1 - Beefy,FOR,927988.9776589527
+188,citizen_house,0xb4e35ca76ff5696570631fe3ae38fd8c268a081e1b0f0a7614d1779a4ebdbc33,Proposal L: Governance Fund Phase 1 - Beefy,ABSTAIN,47273.23271613636
+189,citizen_house,0xb6054ed78153c9112cac5dd3fbd234481c9961bfcbf665e645754f2e6c8b286b,Season 2: Cycle 7: Karma (Discourse Form Plugin),FOR,11585194.743229635
+190,citizen_house,0xb6054ed78153c9112cac5dd3fbd234481c9961bfcbf665e645754f2e6c8b286b,Season 2: Cycle 7: Karma (Discourse Form Plugin),ABSTAIN,482045.48678926355
+191,citizen_house,0xb6054ed78153c9112cac5dd3fbd234481c9961bfcbf665e645754f2e6c8b286b,Season 2: Cycle 7: Karma (Discourse Form Plugin),AGAINST,356997.26765969535
+192,citizen_house,0xb7a9f7487ed183c049514c01328321fafe561b6ad50896b083ffdd608237c23b,Proposal G: Governance Phase 1 - Beefy Finance,FOR,17288334.921562076
+193,citizen_house,0xb7a9f7487ed183c049514c01328321fafe561b6ad50896b083ffdd608237c23b,Proposal G: Governance Phase 1 - Beefy Finance,AGAINST,1178721.655149531
+194,citizen_house,0xb7a9f7487ed183c049514c01328321fafe561b6ad50896b083ffdd608237c23b,Proposal G: Governance Phase 1 - Beefy Finance,ABSTAIN,350343.0046184438
+195,citizen_house,0xbdfed349a52173ccf3ddf96ecfd5e1cc23885e85b615093abd9bad16dac38885,Proposal N: Governance Fund Phase 1 - Thales,AGAINST,12205605.418576002
+196,citizen_house,0xbdfed349a52173ccf3ddf96ecfd5e1cc23885e85b615093abd9bad16dac38885,Proposal N: Governance Fund Phase 1 - Thales,FOR,4993659.530007525
+197,citizen_house,0xbdfed349a52173ccf3ddf96ecfd5e1cc23885e85b615093abd9bad16dac38885,Proposal N: Governance Fund Phase 1 - Thales,ABSTAIN,54510.026612563204
+198,citizen_house,0xbf4e3b4abfc10594ab3b9895d398c7c672b9526eeaaa672df1ae281c2a580091,Season 2: Cycle 7: Abracadabra Money,AGAINST,12023081.301297627
+199,citizen_house,0xbf4e3b4abfc10594ab3b9895d398c7c672b9526eeaaa672df1ae281c2a580091,Season 2: Cycle 7: Abracadabra Money,FOR,549095.4503352243
+200,citizen_house,0xbf4e3b4abfc10594ab3b9895d398c7c672b9526eeaaa672df1ae281c2a580091,Season 2: Cycle 7: Abracadabra Money,ABSTAIN,30068.69497808493
+201,citizen_house,0xc074e43c31ef6416083ef7bdad26e0b74a32063eb382b19ecfd29da397f6279b,Proposal F: Governance Phase 1 - GARD,AGAINST,17229048.79186092
+202,citizen_house,0xc074e43c31ef6416083ef7bdad26e0b74a32063eb382b19ecfd29da397f6279b,Proposal F: Governance Phase 1 - GARD,FOR,441223.36137460585
+203,citizen_house,0xc074e43c31ef6416083ef7bdad26e0b74a32063eb382b19ecfd29da397f6279b,Proposal F: Governance Phase 1 - GARD,ABSTAIN,60941.89986128798
+204,citizen_house,0xc8d4c55645e133bb66f480f4f1a17307f73aedd99b0d64f796f4749ce355d7a5,Season 2: Cycle 8: Overnight,FOR,15318215.501050755
+205,citizen_house,0xc8d4c55645e133bb66f480f4f1a17307f73aedd99b0d64f796f4749ce355d7a5,Season 2: Cycle 8: Overnight,AGAINST,96777.11945343074
+206,citizen_house,0xc8d4c55645e133bb66f480f4f1a17307f73aedd99b0d64f796f4749ce355d7a5,Season 2: Cycle 8: Overnight,ABSTAIN,45821.42738496938
+207,citizen_house,0xc9c0a739a29ce6477708f49a2985e4c8cb2e4ba0be1d3761541ed189a9c341e1,Season 2: Cycle 8: Angle,FOR,15037138.31196535
+208,citizen_house,0xc9c0a739a29ce6477708f49a2985e4c8cb2e4ba0be1d3761541ed189a9c341e1,Season 2: Cycle 8: Angle,ABSTAIN,385898.39635395975
+209,citizen_house,0xc9c0a739a29ce6477708f49a2985e4c8cb2e4ba0be1d3761541ed189a9c341e1,Season 2: Cycle 8: Angle,AGAINST,46748.253436866726
+210,citizen_house,0xcb36daea932ac232f0c0ef4dbba3c41d94e98a252a71815a6d2ab4e73107669b,Proposal O: Governance Fund Phase 1 - ParaSwap,FOR,14631900.407758098
+211,citizen_house,0xcb36daea932ac232f0c0ef4dbba3c41d94e98a252a71815a6d2ab4e73107669b,Proposal O: Governance Fund Phase 1 - ParaSwap,ABSTAIN,3099004.4742291938
+212,citizen_house,0xcb36daea932ac232f0c0ef4dbba3c41d94e98a252a71815a6d2ab4e73107669b,Proposal O: Governance Fund Phase 1 - ParaSwap,AGAINST,425543.1902742714
+213,citizen_house,0xcf408ef01d60307b668d349d80b930346f76e88835d50653e0a81ca3cb2637ff,Proposal P: Governance Fund Phase 1 - Roki,FOR,14677089.999771703
+214,citizen_house,0xcf408ef01d60307b668d349d80b930346f76e88835d50653e0a81ca3cb2637ff,Proposal P: Governance Fund Phase 1 - Roki,AGAINST,3598282.7275479366
+215,citizen_house,0xcf408ef01d60307b668d349d80b930346f76e88835d50653e0a81ca3cb2637ff,Proposal P: Governance Fund Phase 1 - Roki,ABSTAIN,1091670.057656183
+216,citizen_house,0xcf871243191a3e0672caa7b7a29ee1be8f917288d844fc9345f56b777a595659,Season 2: Cycle 8: Messari,ABSTAIN,11986304.984265296
+217,citizen_house,0xcf871243191a3e0672caa7b7a29ee1be8f917288d844fc9345f56b777a595659,Season 2: Cycle 8: Messari,AGAINST,2409541.640163735
+218,citizen_house,0xcf871243191a3e0672caa7b7a29ee1be8f917288d844fc9345f56b777a595659,Season 2: Cycle 8: Messari,FOR,1279547.305280677
+219,citizen_house,0xd469ba187d0232c9626a7e6179c35adfdbdf1df8874375a2e54ff0d0de3c1501,Proposal D: Governance Phase 1 - xToken Terminal and Gamma Strategies,FOR,17054318.73129837
+220,citizen_house,0xd469ba187d0232c9626a7e6179c35adfdbdf1df8874375a2e54ff0d0de3c1501,Proposal D: Governance Phase 1 - xToken Terminal and Gamma Strategies,AGAINST,2338322.901510476
+221,citizen_house,0xd469ba187d0232c9626a7e6179c35adfdbdf1df8874375a2e54ff0d0de3c1501,Proposal D: Governance Phase 1 - xToken Terminal and Gamma Strategies,ABSTAIN,137163.560931099
+222,citizen_house,0xd8ea5749c5fb886021f27c422b1bb1ae5ff972e8fa73853608f242cbe18744da,Proposal I: Governance Fund Phase 1 - Pickle Finance,FOR,15947512.997996423
+223,citizen_house,0xd8ea5749c5fb886021f27c422b1bb1ae5ff972e8fa73853608f242cbe18744da,Proposal I: Governance Fund Phase 1 - Pickle Finance,AGAINST,1713082.2171529282
+224,citizen_house,0xd8ea5749c5fb886021f27c422b1bb1ae5ff972e8fa73853608f242cbe18744da,Proposal I: Governance Fund Phase 1 - Pickle Finance,ABSTAIN,731397.2213242848
+225,citizen_house,0xda1cc880069dceea9e386323120875ddecd1d23dcb46eab588beaf88b39f5a62,Season 2 Governance Fund Proposal: Across Protocol,FOR,11074559.605965845
+226,citizen_house,0xda1cc880069dceea9e386323120875ddecd1d23dcb46eab588beaf88b39f5a62,Season 2 Governance Fund Proposal: Across Protocol,AGAINST,989737.1348938842
+227,citizen_house,0xda1cc880069dceea9e386323120875ddecd1d23dcb46eab588beaf88b39f5a62,Season 2 Governance Fund Proposal: Across Protocol,ABSTAIN,53410.672008668844
+228,citizen_house,0xdcff47b93fb17a11411bda1809e22cba72e5131d31624e4c0f2b9dbee6811f5c,Title: Special Voting Cycle #9b: Grants Council Elections - Builders ,MULTIPLE,13902617.340108337
+229,citizen_house,0xe290c12c3871de18c7be44d0ce19e3fe46401adbdd9fa25077629cb356889be2,Season 2: Cycle 7: Dope Wars,FOR,4860508.325443315
+230,citizen_house,0xe290c12c3871de18c7be44d0ce19e3fe46401adbdd9fa25077629cb356889be2,Season 2: Cycle 7: Dope Wars,ABSTAIN,4832706.195098137
+231,citizen_house,0xe290c12c3871de18c7be44d0ce19e3fe46401adbdd9fa25077629cb356889be2,Season 2: Cycle 7: Dope Wars,AGAINST,1982396.2555975404
+232,citizen_house,0xe3f4713ca1dcfe8e9e3e3f59560e28895a8895b559cc1f2331ca401ce51125f4,Proposal C: Governance Phase 1 - Hundred Finance ,FOR,16375844.001050083
+233,citizen_house,0xe3f4713ca1dcfe8e9e3e3f59560e28895a8895b559cc1f2331ca401ce51125f4,Proposal C: Governance Phase 1 - Hundred Finance ,AGAINST,438087.3919506793
+234,citizen_house,0xe3f4713ca1dcfe8e9e3e3f59560e28895a8895b559cc1f2331ca401ce51125f4,Proposal C: Governance Phase 1 - Hundred Finance ,ABSTAIN,133941.0487814175
+235,citizen_house,0xe61bea48154a9c59a7ac1ddb56799c77b1b7a2f138a398c48fff835221f25430,Season 2: Cycle 8: Alchemix,FOR,15423299.26689076
+236,citizen_house,0xe61bea48154a9c59a7ac1ddb56799c77b1b7a2f138a398c48fff835221f25430,Season 2: Cycle 8: Alchemix,ABSTAIN,53674.69777093468
+237,citizen_house,0xe61bea48154a9c59a7ac1ddb56799c77b1b7a2f138a398c48fff835221f25430,Season 2: Cycle 8: Alchemix,AGAINST,40662.42113086919
+238,citizen_house,0xe97adad42eb8c0072edee33de2c68191cd2e8a0ae615ab94ebb60bdc73a7d3f2,Season 2: Cycle 8: DefiLlama,FOR,14459571.876064258
+239,citizen_house,0xe97adad42eb8c0072edee33de2c68191cd2e8a0ae615ab94ebb60bdc73a7d3f2,Season 2: Cycle 8: DefiLlama,ABSTAIN,1088593.7099655303
+240,citizen_house,0xe97adad42eb8c0072edee33de2c68191cd2e8a0ae615ab94ebb60bdc73a7d3f2,Season 2: Cycle 8: DefiLlama,AGAINST,215194.0247717519
+241,citizen_house,0xe98be83b9b3873aef54f8a19373afdc95028342cc9f2757af6099570034b093e,Season 2: Cycle 7: Yearn,FOR,11339852.351883287
+242,citizen_house,0xe98be83b9b3873aef54f8a19373afdc95028342cc9f2757af6099570034b093e,Season 2: Cycle 7: Yearn,ABSTAIN,1076016.1347662425
+243,citizen_house,0xe98be83b9b3873aef54f8a19373afdc95028342cc9f2757af6099570034b093e,Season 2: Cycle 7: Yearn,AGAINST,364767.64526730607
+244,citizen_house,0xeabcaf98f6cc84a8b3a244d66c44823149712569432877bb89c0b66c5bd00b39,Season 2: Cycle 7: Overnight.fi ,AGAINST,8641760.078760745
+245,citizen_house,0xeabcaf98f6cc84a8b3a244d66c44823149712569432877bb89c0b66c5bd00b39,Season 2: Cycle 7: Overnight.fi ,FOR,2277676.574127199
+246,citizen_house,0xeabcaf98f6cc84a8b3a244d66c44823149712569432877bb89c0b66c5bd00b39,Season 2: Cycle 7: Overnight.fi ,ABSTAIN,151165.01960446732
+247,citizen_house,0xf2c2621dce969b0f91b5cdf8270dfbde55f04ba5a8bd09478b7b792f1b6fdf49,Proposal C: Governance Phase 1 - dHedge,AGAINST,12977252.62862704
+248,citizen_house,0xf2c2621dce969b0f91b5cdf8270dfbde55f04ba5a8bd09478b7b792f1b6fdf49,Proposal C: Governance Phase 1 - dHedge,FOR,4732458.157361403
+249,citizen_house,0xf2c2621dce969b0f91b5cdf8270dfbde55f04ba5a8bd09478b7b792f1b6fdf49,Proposal C: Governance Phase 1 - dHedge,ABSTAIN,1517793.4999813952
+250,citizen_house,0xf44f4767df0341611940e74316ff1aa5047761f04a97eb9681aa96b8c71da75a,Season 2: Cycle 8: Tally Ho,ABSTAIN,6858016.258047152
+251,citizen_house,0xf44f4767df0341611940e74316ff1aa5047761f04a97eb9681aa96b8c71da75a,Season 2: Cycle 8: Tally Ho,FOR,4105954.8031269955
+252,citizen_house,0xf44f4767df0341611940e74316ff1aa5047761f04a97eb9681aa96b8c71da75a,Season 2: Cycle 8: Tally Ho,AGAINST,3524512.3564563696
+253,citizen_house,0xfba0828a2f887ce56f6c7a548e886fb2028cb062057ff3ca55c6eff95260c9a8,Season 2: Cycle 8: Curve ,FOR,15593771.409208314
+254,citizen_house,0xfba0828a2f887ce56f6c7a548e886fb2028cb062057ff3ca55c6eff95260c9a8,Season 2: Cycle 8: Curve ,AGAINST,47960.761377446746
+255,citizen_house,0xfba0828a2f887ce56f6c7a548e886fb2028cb062057ff3ca55c6eff95260c9a8,Season 2: Cycle 8: Curve ,ABSTAIN,44118.018629832004
+256,citizen_house,0xfd9d6a2cc49918aa319d0d4a87e4f1d6ec7aedd57262015c5c5c354a0e578437,Season 2 Governance Fund Proposal: Tarot,AGAINST,11140604.099792635
+257,citizen_house,0xfd9d6a2cc49918aa319d0d4a87e4f1d6ec7aedd57262015c5c5c354a0e578437,Season 2 Governance Fund Proposal: Tarot,FOR,1083541.1384932755
+258,citizen_house,0xfd9d6a2cc49918aa319d0d4a87e4f1d6ec7aedd57262015c5c5c354a0e578437,Season 2 Governance Fund Proposal: Tarot,ABSTAIN,23160.006378327613
+259,citizen_house,0xfeb1832a75e2ef47dea4b08509a16e4e9176e9d2a962c9466c5d345b37428384,Season 2: Cycle 8: Velodrome ,FOR,8585110.814420203
+260,citizen_house,0xfeb1832a75e2ef47dea4b08509a16e4e9176e9d2a962c9466c5d345b37428384,Season 2: Cycle 8: Velodrome ,ABSTAIN,4239005.479922565
+261,citizen_house,0xfeb1832a75e2ef47dea4b08509a16e4e9176e9d2a962c9466c5d345b37428384,Season 2: Cycle 8: Velodrome ,AGAINST,4137297.4905129536
+262,token_house,Proposal|Proposal|102821998933460159156263544808281872605936639206851804749751748763651967264110,Code of Conduct Council: Member Nominations,MULTIPLE,46277195.750280105
+263,token_house,Proposal|Proposal|102821998933460159156263544808281872605936639206851804749751748763651967264110,Code of Conduct Council: Member Nominations,FOR,1564906.3711041433
+264,token_house,Proposal|Proposal|103695324913424597802389181312722993037601032681914451632412140667432224173014,Intent #4 Budget Proposal,FOR,25880281.97244366
+265,token_house,Proposal|Proposal|103695324913424597802389181312722993037601032681914451632412140667432224173014,Intent #4 Budget Proposal,AGAINST,17370.562418144746
+266,token_house,Proposal|Proposal|103695324913424597802389181312722993037601032681914451632412140667432224173014,Intent #4 Budget Proposal,ABSTAIN,6935.442918291236
+267,token_house,Proposal|Proposal|103713749716503028671815481721039004389156473487450783632177114353117435138377,Council Reviewer Elections: Growth Experiments Grants,MULTIPLE,20602772.73778389
+268,token_house,Proposal|Proposal|103713749716503028671815481721039004389156473487450783632177114353117435138377,Council Reviewer Elections: Growth Experiments Grants,FOR,591757.1389035019
+269,token_house,Proposal|Proposal|105090569675606228680479820654354019470447822380910214626164858605991232311940,Season 6: Code of Conduct Council Renewal ,AGAINST,29821545.00739087
+270,token_house,Proposal|Proposal|105090569675606228680479820654354019470447822380910214626164858605991232311940,Season 6: Code of Conduct Council Renewal ,FOR,17007275.35404612
+271,token_house,Proposal|Proposal|105090569675606228680479820654354019470447822380910214626164858605991232311940,Season 6: Code of Conduct Council Renewal ,ABSTAIN,3487066.530234317
+272,token_house,Proposal|Proposal|10572947036210533292634221606922807092762967787561796032397523909369599512554,Proposal to Reclassify Grant Misusage Enforcement,FOR,43920582.30724965
+273,token_house,Proposal|Proposal|10572947036210533292634221606922807092762967787561796032397523909369599512554,Proposal to Reclassify Grant Misusage Enforcement,AGAINST,3478180.3483878835
+274,token_house,Proposal|Proposal|10572947036210533292634221606922807092762967787561796032397523909369599512554,Proposal to Reclassify Grant Misusage Enforcement,ABSTAIN,203536.26047662934
+275,token_house,Proposal|Proposal|110376471005925230990107796624328147348746431603727026291575353089698990280147,Protocol Upgrade #4,FOR,58164731.85347259
+276,token_house,Proposal|Proposal|110376471005925230990107796624328147348746431603727026291575353089698990280147,Protocol Upgrade #4,ABSTAIN,19929.6766903984
+277,token_house,Proposal|Proposal|110376471005925230990107796624328147348746431603727026291575353089698990280147,Protocol Upgrade #4,AGAINST,1822.5403360863681
+278,token_house,Proposal|Proposal|112047914448178129124907599845371359974256142096707624346739203514792263033877,Ratification of Law of Chains,FOR,45777548.941897854
+279,token_house,Proposal|Proposal|112047914448178129124907599845371359974256142096707624346739203514792263033877,Ratification of Law of Chains,AGAINST,53852.67059707005
+280,token_house,Proposal|Proposal|112047914448178129124907599845371359974256142096707624346739203514792263033877,Ratification of Law of Chains,ABSTAIN,16249.45159727817
+281,token_house,Proposal|Proposal|114318499951173425640219752344574142419220609526557632733105006940618608635406,Summary of Code of Conduct enforcement decisions,AGAINST,2046807.8678072141
+282,token_house,Proposal|Proposal|114732572201709734114347859370226754519763657304898989580338326275038680037913,"Upgrade Proposal: Bedrock - This proposal outlines the Optimism Collective’s first Protocol upgrade of Optimism Mainnet to the Bedrock release. This upgrade aims to provide unprecedented modularity, simplicity, and Ethereum equivalence to the L2 network, with positive impacts on performance and security. Bedrock is the codebase which will help Optimism stand the test of time, and is also preparatory step towards the multi-chain future. - This Protocol Upgrade proposal is eligible for voting in Voting Cycle #11: https://gov.optimism.io/t/final-upgrade-proposal-bedrock-v2/5548",FOR,27944934.77384539
+283,token_house,Proposal|Proposal|114732572201709734114347859370226754519763657304898989580338326275038680037913,"Upgrade Proposal: Bedrock - This proposal outlines the Optimism Collective’s first Protocol upgrade of Optimism Mainnet to the Bedrock release. This upgrade aims to provide unprecedented modularity, simplicity, and Ethereum equivalence to the L2 network, with positive impacts on performance and security. Bedrock is the codebase which will help Optimism stand the test of time, and is also preparatory step towards the multi-chain future. - This Protocol Upgrade proposal is eligible for voting in Voting Cycle #11: https://gov.optimism.io/t/final-upgrade-proposal-bedrock-v2/5548",AGAINST,37216.79796791035
+284,token_house,Proposal|Proposal|114732572201709734114347859370226754519763657304898989580338326275038680037913,"Upgrade Proposal: Bedrock - This proposal outlines the Optimism Collective’s first Protocol upgrade of Optimism Mainnet to the Bedrock release. This upgrade aims to provide unprecedented modularity, simplicity, and Ethereum equivalence to the L2 network, with positive impacts on performance and security. Bedrock is the codebase which will help Optimism stand the test of time, and is also preparatory step towards the multi-chain future. - This Protocol Upgrade proposal is eligible for voting in Voting Cycle #11: https://gov.optimism.io/t/final-upgrade-proposal-bedrock-v2/5548",ABSTAIN,7656.757821531028
+285,token_house,Proposal|Proposal|11595556248137084019024264942104169821784001997050285438055123196153848845549,Season 5 Intent Budgets,FOR,46933567.417587325
+286,token_house,Proposal|Proposal|11595556248137084019024264942104169821784001997050285438055123196153848845549,Season 5 Intent Budgets,AGAINST,83512.2836050892
+287,token_house,Proposal|Proposal|11595556248137084019024264942104169821784001997050285438055123196153848845549,Season 5 Intent Budgets,ABSTAIN,14035.452117559029
+288,token_house,Proposal|Proposal|13644637236772462780287582686131348226526824657027343360896627559283471469688,Grants Council Reviewer Elections: Builders,MULTIPLE,47198314.449798726
+289,token_house,Proposal|Proposal|13644637236772462780287582686131348226526824657027343360896627559283471469688,Grants Council Reviewer Elections: Builders,FOR,105102.04450718491
+290,token_house,Proposal|Proposal|14140470239376219798070786387548096572382469675815006174305459677010858217673,Developer Advisory Board Elections,MULTIPLE,43467923.9334743
+291,token_house,Proposal|Proposal|14140470239376219798070786387548096572382469675815006174305459677010858217673,Developer Advisory Board Elections,ABSTAIN,1283917.1786883355
+292,token_house,Proposal|Proposal|16633367863894036056841722161407059007904922838583677995599242776177398115322,"Intent #4, 3M OP",MULTIPLE,24629283.376176603
+293,token_house,Proposal|Proposal|16633367863894036056841722161407059007904922838583677995599242776177398115322,"Intent #4, 3M OP",FOR,235145.81758116581
+294,token_house,Proposal|Proposal|19894803675554157870919000647998468859257602050917884642551010462863037711179,Upgrade Proposal #9: Fjord Network Upgrade ,FOR,54702172.177237324
+295,token_house,Proposal|Proposal|19894803675554157870919000647998468859257602050917884642551010462863037711179,Upgrade Proposal #9: Fjord Network Upgrade ,ABSTAIN,2088.646018268607
+296,token_house,Proposal|Proposal|19894803675554157870919000647998468859257602050917884642551010462863037711179,Upgrade Proposal #9: Fjord Network Upgrade ,AGAINST,1264.1260494585342
+297,token_house,Proposal|Proposal|20327152654308054166942093105443920402082671769027198649343468266910325783863,Upgrade #2: Canyon Protocol Upgrade,FOR,48699635.930551186
+298,token_house,Proposal|Proposal|20327152654308054166942093105443920402082671769027198649343468266910325783863,Upgrade #2: Canyon Protocol Upgrade,ABSTAIN,16021.584670634522
+299,token_house,Proposal|Proposal|20327152654308054166942093105443920402082671769027198649343468266910325783863,Upgrade #2: Canyon Protocol Upgrade,AGAINST,12215.209035813863
+300,token_house,Proposal|Proposal|22387138384033903985192420283570655912990907953544385753324581204637906644383,Anticapture Commission,FOR,43577109.46267541
+301,token_house,Proposal|Proposal|22387138384033903985192420283570655912990907953544385753324581204637906644383,Anticapture Commission,AGAINST,2538822.0710371174
+302,token_house,Proposal|Proposal|22387138384033903985192420283570655912990907953544385753324581204637906644383,Anticapture Commission,ABSTAIN,287585.7896327937
+303,token_house,Proposal|Proposal|23296680451920040311284556255465306513981293154669425902294655221457403608367,Season 6: Grants Council Operating Budget ,FOR,48833678.24211999
+304,token_house,Proposal|Proposal|23296680451920040311284556255465306513981293154669425902294655221457403608367,Season 6: Grants Council Operating Budget ,ABSTAIN,1207587.7032373406
+305,token_house,Proposal|Proposal|23296680451920040311284556255465306513981293154669425902294655221457403608367,Season 6: Grants Council Operating Budget ,AGAINST,152503.1130869371
+306,token_house,Proposal|Proposal|23645858735980247449510302520189443998369792603230659191221949690963680987113,Chain Delegation Program,FOR,43439059.00400382
+307,token_house,Proposal|Proposal|23645858735980247449510302520189443998369792603230659191221949690963680987113,Chain Delegation Program,ABSTAIN,2533373.707550721
+308,token_house,Proposal|Proposal|23645858735980247449510302520189443998369792603230659191221949690963680987113,Chain Delegation Program,AGAINST,162265.1211748727
+309,token_house,Proposal|Proposal|25353629475948605098820168047140307200589226219380649297323431722674892706917,Code of Conduct Violation: Carlos Melgar,ABSTAIN,27080684.7233773
+310,token_house,Proposal|Proposal|25353629475948605098820168047140307200589226219380649297323431722674892706917,Code of Conduct Violation: Carlos Melgar,AGAINST,15216557.165632907
+311,token_house,Proposal|Proposal|25353629475948605098820168047140307200589226219380649297323431722674892706917,Code of Conduct Violation: Carlos Melgar,FOR,2250417.3066406273
+312,token_house,Proposal|Proposal|25880033934676971665723733541209586752614746252511258418137386650985468353208,Grants Council Reviewer Elections: Audit Reviewer,MULTIPLE,43311107.596834205
+313,token_house,Proposal|Proposal|25880033934676971665723733541209586752614746252511258418137386650985468353208,Grants Council Reviewer Elections: Audit Reviewer,ABSTAIN,1239525.3761024547
+314,token_house,Proposal|Proposal|26993004599223263087505603454119723751877285713239446072681254755783718227511,Code of Conduct Council Budget,FOR,41722208.19862246
+315,token_house,Proposal|Proposal|26993004599223263087505603454119723751877285713239446072681254755783718227511,Code of Conduct Council Budget,AGAINST,2415000.4001788544
+316,token_house,Proposal|Proposal|26993004599223263087505603454119723751877285713239446072681254755783718227511,Code of Conduct Council Budget,ABSTAIN,289774.6758702964
+317,token_house,Proposal|Proposal|27439950952007920118525230291344523079212068327713298769307857575418374325849,Security Council: Vote #1,FOR,46176532.35167562
+318,token_house,Proposal|Proposal|27439950952007920118525230291344523079212068327713298769307857575418374325849,Security Council: Vote #1,AGAINST,49919.40390461898
+319,token_house,Proposal|Proposal|27439950952007920118525230291344523079212068327713298769307857575418374325849,Security Council: Vote #1,ABSTAIN,24767.49020866341
+320,token_house,Proposal|Proposal|27878184270712708211495755831534918916136653803154031118511283847257927730426,"Delegate Suspension: Fractal Visions - All Optimism Delegates are bound by the delegate code of conduct (https://gov.optimism.io/t/delegate-code-of-conduct/3943.) Severe code of conduct violations are subject to a three month suspension and are decided via Token House vote. - This Delegate Suspension Proposal is eligible for voting in Voting Cycle #11: https://gov.optimism.io/t/delegate-suspension-fractal-visions/5710 // Note: the approval threshold for this proposal is 51%, or 20424975 OP. The value displayed by the frontend may differ.",FOR,19044205.067966297
+321,token_house,Proposal|Proposal|27878184270712708211495755831534918916136653803154031118511283847257927730426,"Delegate Suspension: Fractal Visions - All Optimism Delegates are bound by the delegate code of conduct (https://gov.optimism.io/t/delegate-code-of-conduct/3943.) Severe code of conduct violations are subject to a three month suspension and are decided via Token House vote. - This Delegate Suspension Proposal is eligible for voting in Voting Cycle #11: https://gov.optimism.io/t/delegate-suspension-fractal-visions/5710 // Note: the approval threshold for this proposal is 51%, or 20424975 OP. The value displayed by the frontend may differ.",ABSTAIN,6253787.504842005
+322,token_house,Proposal|Proposal|27878184270712708211495755831534918916136653803154031118511283847257927730426,"Delegate Suspension: Fractal Visions - All Optimism Delegates are bound by the delegate code of conduct (https://gov.optimism.io/t/delegate-code-of-conduct/3943.) Severe code of conduct violations are subject to a three month suspension and are decided via Token House vote. - This Delegate Suspension Proposal is eligible for voting in Voting Cycle #11: https://gov.optimism.io/t/delegate-suspension-fractal-visions/5710 // Note: the approval threshold for this proposal is 51%, or 20424975 OP. The value displayed by the frontend may differ.",AGAINST,15104.662432923265
+323,token_house,Proposal|Proposal|2808108363564117434228597137832979672586627356483314020876637262618986508713,Council Reviewer Elections: Builders Grants,MULTIPLE,19550751.716870543
+324,token_house,Proposal|Proposal|2808108363564117434228597137832979672586627356483314020876637262618986508713,Council Reviewer Elections: Builders Grants,FOR,1462139.0585462938
+325,token_house,Proposal|Proposal|28717615714293937494900642239604511349625947114847340322672351149517127794996,"Mission Requests: Intent #3, 1.33M OP",MULTIPLE,46062444.16987231
+326,token_house,Proposal|Proposal|28717615714293937494900642239604511349625947114847340322672351149517127794996,"Mission Requests: Intent #3, 1.33M OP",ABSTAIN,1462192.5463716127
+327,token_house,Proposal|Proposal|29831001453379581627736734765818959389842109811221412662144194715522205098015,Treasury Appropriation (Foundation Year 2 Budget Approval),FOR,14213749.790442603
+328,token_house,Proposal|Proposal|29831001453379581627736734765818959389842109811221412662144194715522205098015,Treasury Appropriation (Foundation Year 2 Budget Approval),AGAINST,5325002.384805931
+329,token_house,Proposal|Proposal|29831001453379581627736734765818959389842109811221412662144194715522205098015,Treasury Appropriation (Foundation Year 2 Budget Approval),ABSTAIN,1706274.115616474
+330,token_house,Proposal|Proposal|32970701904870446614408373011942917680422376755229075190214017021915019093516,Intent #2 - Council Intent Budget Proposal,FOR,25810609.02697631
+331,token_house,Proposal|Proposal|32970701904870446614408373011942917680422376755229075190214017021915019093516,Intent #2 - Council Intent Budget Proposal,AGAINST,18618.580908524917
+332,token_house,Proposal|Proposal|32970701904870446614408373011942917680422376755229075190214017021915019093516,Intent #2 - Council Intent Budget Proposal,ABSTAIN,6316.13204959401
+333,token_house,Proposal|Proposal|4537769538885163906898768401836322976193114338273264147746088063279656611139,Season 6: Intent Budgets ,FOR,48485008.936064065
+334,token_house,Proposal|Proposal|4537769538885163906898768401836322976193114338273264147746088063279656611139,Season 6: Intent Budgets ,ABSTAIN,1048676.6968627328
+335,token_house,Proposal|Proposal|4537769538885163906898768401836322976193114338273264147746088063279656611139,Season 6: Intent Budgets ,AGAINST,717554.3460101713
+336,token_house,Proposal|Proposal|46662599590868619415724059715206858415123913604990481279137083354870809650669,Season 6: Intents Ratification ,FOR,49553005.1377162
+337,token_house,Proposal|Proposal|46662599590868619415724059715206858415123913604990481279137083354870809650669,Season 6: Intents Ratification ,ABSTAIN,1023572.3737697876
+338,token_house,Proposal|Proposal|46662599590868619415724059715206858415123913604990481279137083354870809650669,Season 6: Intents Ratification ,AGAINST,60547.17333588988
+339,token_house,Proposal|Proposal|46755965320953291432113738397437466520155684451527981335363452666080752126186,Intent 2 Budget Proposal 2,FOR,20633863.93277216
+340,token_house,Proposal|Proposal|46755965320953291432113738397437466520155684451527981335363452666080752126186,Intent 2 Budget Proposal 2,ABSTAIN,7203148.398258547
+341,token_house,Proposal|Proposal|46755965320953291432113738397437466520155684451527981335363452666080752126186,Intent 2 Budget Proposal 2,AGAINST,48603.850948756306
+342,token_house,Proposal|Proposal|47253113366919812831791422571513347073374828501432502648295761953879525315523,Protocol Upgrade #6: Multi-Chain Prep (MCP) L1,FOR,35280182.27842879
+343,token_house,Proposal|Proposal|47253113366919812831791422571513347073374828501432502648295761953879525315523,Protocol Upgrade #6: Multi-Chain Prep (MCP) L1,ABSTAIN,4806224.9500197815
+344,token_house,Proposal|Proposal|47253113366919812831791422571513347073374828501432502648295761953879525315523,Protocol Upgrade #6: Multi-Chain Prep (MCP) L1,AGAINST,4132.643255467712
+345,token_house,Proposal|Proposal|47257038716514883626179774712509684309799801257166588609178192779726195852111,Governor Update Proposal #2: Improvements to advanced delegation allowance calculations ,FOR,60710372.952075355
+346,token_house,Proposal|Proposal|47257038716514883626179774712509684309799801257166588609178192779726195852111,Governor Update Proposal #2: Improvements to advanced delegation allowance calculations ,AGAINST,5165.368156496252
+347,token_house,Proposal|Proposal|47257038716514883626179774712509684309799801257166588609178192779726195852111,Governor Update Proposal #2: Improvements to advanced delegation allowance calculations ,ABSTAIN,3703.4087236563837
+348,token_house,Proposal|Proposal|47864371633107534187617995773541299064963460661119440983190542488743950169122,Grants Council Operating Budget,FOR,45942464.55836123
+349,token_house,Proposal|Proposal|47864371633107534187617995773541299064963460661119440983190542488743950169122,Grants Council Operating Budget,ABSTAIN,252043.1057230619
+350,token_house,Proposal|Proposal|47864371633107534187617995773541299064963460661119440983190542488743950169122,Grants Council Operating Budget,AGAINST,62511.092040249154
+351,token_house,Proposal|Proposal|51738314696473345172141808043782330430064117614433447104828853768775712054864,Intent #1 Budget Proposal,FOR,25856260.691016957
+352,token_house,Proposal|Proposal|51738314696473345172141808043782330430064117614433447104828853768775712054864,Intent #1 Budget Proposal,AGAINST,37389.96970005633
+353,token_house,Proposal|Proposal|51738314696473345172141808043782330430064117614433447104828853768775712054864,Intent #1 Budget Proposal,ABSTAIN,6574.0939401914
+354,token_house,Proposal|Proposal|63758762292293008954414933414904836930778692439616923618399126968620365661274,Governor Upgrade #1: Improve advanced delegation voting ,FOR,54315284.90088786
+355,token_house,Proposal|Proposal|63758762292293008954414933414904836930778692439616923618399126968620365661274,Governor Upgrade #1: Improve advanced delegation voting ,ABSTAIN,1666.622113799688
+356,token_house,Proposal|Proposal|63758762292293008954414933414904836930778692439616923618399126968620365661274,Governor Upgrade #1: Improve advanced delegation voting ,AGAINST,1629.4860186245937
+357,token_house,Proposal|Proposal|64254865747689238476482316231542329918557877728914510953881453289938881180826,Anticapture Commission Amendment ,FOR,44537674.24498373
+358,token_house,Proposal|Proposal|64254865747689238476482316231542329918557877728914510953881453289938881180826,Anticapture Commission Amendment ,ABSTAIN,96802.06856856441
+359,token_house,Proposal|Proposal|64254865747689238476482316231542329918557877728914510953881453289938881180826,Anticapture Commission Amendment ,AGAINST,2010.303055885024
+360,token_house,Proposal|Proposal|64861580915106728278960188313654044018229192803489945934331754023009986585740,Upgrade Proposal #3: Delta Network Upgrade ,FOR,47973168.65157966
+361,token_house,Proposal|Proposal|64861580915106728278960188313654044018229192803489945934331754023009986585740,Upgrade Proposal #3: Delta Network Upgrade ,AGAINST,17442.55720272951
+362,token_house,Proposal|Proposal|64861580915106728278960188313654044018229192803489945934331754023009986585740,Upgrade Proposal #3: Delta Network Upgrade ,ABSTAIN,4944.826909433364
+363,token_house,Proposal|Proposal|64930538748268257621925093712454552173772860987977453334165023026835711650357,Protocol Delegation Program Renewal,FOR,22272075.52686199
+364,token_house,Proposal|Proposal|64930538748268257621925093712454552173772860987977453334165023026835711650357,Protocol Delegation Program Renewal,AGAINST,2574961.7706548115
+365,token_house,Proposal|Proposal|64930538748268257621925093712454552173772860987977453334165023026835711650357,Protocol Delegation Program Renewal,ABSTAIN,843166.620618008
+366,token_house,Proposal|Proposal|67269789039629895178640755758170247888863792004069768037736283616310331965838,Developer Advisory Board Budget,FOR,45214690.322773784
+367,token_house,Proposal|Proposal|67269789039629895178640755758170247888863792004069768037736283616310331965838,Developer Advisory Board Budget,AGAINST,116945.32631821041
+368,token_house,Proposal|Proposal|67269789039629895178640755758170247888863792004069768037736283616310331965838,Developer Advisory Board Budget,ABSTAIN,36263.79690069114
+369,token_house,Proposal|Proposal|6975052961793121236744122111241179429220183353809219742149740939877970567765,Season 6: Developer Advisory Board Renewal ,MULTIPLE,46192066.90877097
+370,token_house,Proposal|Proposal|6975052961793121236744122111241179429220183353809219742149740939877970567765,Season 6: Developer Advisory Board Renewal ,ABSTAIN,4114237.733559497
+371,token_house,Proposal|Proposal|72085170435228531173144599119267762084652443676555508407874836206178427511368,Protocol Upgrade #7: Fault Proofs ,FOR,58401924.529657066
+372,token_house,Proposal|Proposal|72085170435228531173144599119267762084652443676555508407874836206178427511368,Protocol Upgrade #7: Fault Proofs ,ABSTAIN,2203327.2106085327
+373,token_house,Proposal|Proposal|72085170435228531173144599119267762084652443676555508407874836206178427511368,Protocol Upgrade #7: Fault Proofs ,AGAINST,143925.32040684778
+374,token_house,Proposal|Proposal|73015178396219273083926854824941753345309809188523598109189308270327699475780,"Mission Requests: Intent #2, 4M OP",MULTIPLE,46225838.040203914
+375,token_house,Proposal|Proposal|73015178396219273083926854824941753345309809188523598109189308270327699475780,"Mission Requests: Intent #2, 4M OP",ABSTAIN,1363392.2151241745
+376,token_house,Proposal|Proposal|75211317208514314448779845755057517991501022984157114294605202776133460426844,Grants Council Reviewer Elections: Milestones and Metrics Reviewer,MULTIPLE,44596964.39129591
+377,token_house,Proposal|Proposal|75211317208514314448779845755057517991501022984157114294605202776133460426844,Grants Council Reviewer Elections: Milestones and Metrics Reviewer,ABSTAIN,359931.1126421077
+378,token_house,Proposal|Proposal|76298930109016961673734608568752969826843280855214969572559472848313136347131,"Intent #3, 1M OP",MULTIPLE,24426303.53478304
+379,token_house,Proposal|Proposal|76298930109016961673734608568752969826843280855214969572559472848313136347131,"Intent #3, 1M OP",FOR,333728.80813036265
+380,token_house,Proposal|Proposal|79153197521552675573175103134699879266644135524341625272698131484806349525411,Season 5 : Intents Budget Proposal #2 ,FOR,38314130.7186318
+381,token_house,Proposal|Proposal|79153197521552675573175103134699879266644135524341625272698131484806349525411,Season 5 : Intents Budget Proposal #2 ,ABSTAIN,5868851.318378491
+382,token_house,Proposal|Proposal|79153197521552675573175103134699879266644135524341625272698131484806349525411,Season 5 : Intents Budget Proposal #2 ,AGAINST,41426.00974248648
+383,token_house,Proposal|Proposal|80982553847843251343725022866904947381762263529096361834044805234222094077710,Inflation Adjustment Proposal,FOR,20019692.19368688
+384,token_house,Proposal|Proposal|80982553847843251343725022866904947381762263529096361834044805234222094077710,Inflation Adjustment Proposal,ABSTAIN,2233747.670863586
+385,token_house,Proposal|Proposal|80982553847843251343725022866904947381762263529096361834044805234222094077710,Inflation Adjustment Proposal,AGAINST,53772.67161308952
+386,token_house,Proposal|Proposal|81327252303621408966396553066002664769894228780890895944699606923546941131316,Grants Council Reviewer Elections: Mission Reviewer,MULTIPLE,45210691.3026974
+387,token_house,Proposal|Proposal|81327252303621408966396553066002664769894228780890895944699606923546941131316,Grants Council Reviewer Elections: Mission Reviewer,ABSTAIN,90808.40150836438
+388,token_house,Proposal|Proposal|85591583404433237270543189567126336043697987369929953414380041066767718361144,Ratify Security Council Members,FOR,36691970.60885238
+389,token_house,Proposal|Proposal|85591583404433237270543189567126336043697987369929953414380041066767718361144,Ratify Security Council Members,ABSTAIN,12949489.512850292
+390,token_house,Proposal|Proposal|85591583404433237270543189567126336043697987369929953414380041066767718361144,Ratify Security Council Members,AGAINST,40794.80794868919
+391,token_house,Proposal|Proposal|87355419461675705865096288750937924893466943101654806912041265394266455745819,Grants Council Reviewer Elections: Growth Experiments,MULTIPLE,46018218.22380253
+392,token_house,Proposal|Proposal|87355419461675705865096288750937924893466943101654806912041265394266455745819,Grants Council Reviewer Elections: Growth Experiments,FOR,84576.91542827476
+393,token_house,Proposal|Proposal|87887380345359316303511900248014470638082162026872636188610669661624292635896,"Mission Requests: Intent #4, 1.33M OP",MULTIPLE,46578471.12446003
+394,token_house,Proposal|Proposal|87887380345359316303511900248014470638082162026872636188610669661624292635896,"Mission Requests: Intent #4, 1.33M OP",ABSTAIN,1430079.5569973853
+395,token_house,Proposal|Proposal|88658655411314992983575523105180250509368629063896834751261516507794732971264,Season 6: V2. Code of Conduct Council Renewal ,FOR,33413369.185783505
+396,token_house,Proposal|Proposal|88658655411314992983575523105180250509368629063896834751261516507794732971264,Season 6: V2. Code of Conduct Council Renewal ,AGAINST,7708754.538324634
+397,token_house,Proposal|Proposal|88658655411314992983575523105180250509368629063896834751261516507794732971264,Season 6: V2. Code of Conduct Council Renewal ,ABSTAIN,3610229.1197112263
+398,token_house,Proposal|Proposal|89065519272487155253137299698235721564519179632704918690534400514930936156393,"Intent #1, 1M OP",MULTIPLE,24560616.55338541
+399,token_house,Proposal|Proposal|89065519272487155253137299698235721564519179632704918690534400514930936156393,"Intent #1, 1M OP",FOR,24858.98800317183
+400,token_house,Proposal|Proposal|89250535338859095270968116984279971013811713632639468811376241520756760598962,Protocol Upgrade #8: Changes for Stage 1 Decentralization ,FOR,60420527.51061389
+401,token_house,Proposal|Proposal|89250535338859095270968116984279971013811713632639468811376241520756760598962,Protocol Upgrade #8: Changes for Stage 1 Decentralization ,ABSTAIN,152455.579336762
+402,token_house,Proposal|Proposal|89250535338859095270968116984279971013811713632639468811376241520756760598962,Protocol Upgrade #8: Changes for Stage 1 Decentralization ,AGAINST,146233.9624813261
+403,token_house,Proposal|Proposal|90369495475727036502467637477312343790528748282238130910775338005085857773129,Chain Delegation Program Amendment,FOR,41497035.21079198
+404,token_house,Proposal|Proposal|90369495475727036502467637477312343790528748282238130910775338005085857773129,Chain Delegation Program Amendment,AGAINST,3421823.2758773183
+405,token_house,Proposal|Proposal|90369495475727036502467637477312343790528748282238130910775338005085857773129,Chain Delegation Program Amendment,ABSTAIN,68631.06566298901
+406,token_house,Proposal|Proposal|94365805422398770067924881378455503928423439630602149628781926844759467250082,Intent #3 Budget Proposal,FOR,23852012.87837348
+407,token_house,Proposal|Proposal|94365805422398770067924881378455503928423439630602149628781926844759467250082,Intent #3 Budget Proposal,ABSTAIN,1950325.061076355
+408,token_house,Proposal|Proposal|94365805422398770067924881378455503928423439630602149628781926844759467250082,Intent #3 Budget Proposal,AGAINST,19240.791224877117
+409,token_house,Proposal|Proposal|95102633290576253416299445955061077431090693890673037767791097228222587378331,Ratify Developer Advisory Board Members,FOR,44927873.42834448
+410,token_house,Proposal|Proposal|95102633290576253416299445955061077431090693890673037767791097228222587378331,Ratify Developer Advisory Board Members,ABSTAIN,368927.81515622936
+411,token_house,Proposal|Proposal|95102633290576253416299445955061077431090693890673037767791097228222587378331,Ratify Developer Advisory Board Members,AGAINST,45286.50082399037
+412,token_house,Proposal|Proposal|95119698597711750186734377984697814101707190887694311194110013874163880701970,Protocol Upgrade #5: Ecotone Network Upgrade,FOR,39153089.08186296
+413,token_house,Proposal|Proposal|95119698597711750186734377984697814101707190887694311194110013874163880701970,Protocol Upgrade #5: Ecotone Network Upgrade,ABSTAIN,3555.546128561958
+414,token_house,Proposal|Proposal|95119698597711750186734377984697814101707190887694311194110013874163880701970,Protocol Upgrade #5: Ecotone Network Upgrade,AGAINST,2121.6345803995873
+415,token_house,Proposal|Proposal|96868135958111078064987938855232246504506994378309573614627090826820561655088,Grants Council Reviewer Elections: Milestones and Metrics,MULTIPLE,47106930.570793115
+416,token_house,Proposal|Proposal|96868135958111078064987938855232246504506994378309573614627090826820561655088,Grants Council Reviewer Elections: Milestones and Metrics,FOR,1321845.9314533651
+417,token_house,Proposal|Proposal|98465291872542951214209322719211107762519739238690458061430483715486199997958,"Mission Requests: Intent #1, 1.33M OP",MULTIPLE,46259941.10978711
+418,token_house,Proposal|Proposal|98465291872542951214209322719211107762519739238690458061430483715486199997958,"Mission Requests: Intent #1, 1.33M OP",ABSTAIN,1387109.5804757322
