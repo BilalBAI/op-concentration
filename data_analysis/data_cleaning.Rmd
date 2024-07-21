@@ -1,0 +1,415 @@
+---
+title: "Blockchain Project"
+author: "Yang Yujie 3036044363"
+date: "2024-07-11"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+# token_house
+
+```{r}
+prop_token = read.csv("/Users/yangyujie/hku-phd/year1 sem2/Blockchain/data/token_house_proposals_votes.csv")
+
+
+colnames(prop_token)
+```
+```{r}
+apply(prop_token,2,function(x) length(unique(x)))
+```
+有一些proposal没有title
+
+```{r}
+apply(prop_token,2,typeof)
+```
+
+```{r}
+library(dplyr)
+prop_token %>% filter(title == "") %>% select(proposal_id) %>% unique
+```
+
+
+```{r}
+library(dplyr)
+
+
+token_number_people =  prop_token  %>% group_by(proposal_id) %>% summarise(number_people= length(unique(address)))
+
+table(token_number_people$number_people)
+```
+绝大部分proposal都是200个人都投票了。(看是否能去掉投票少的proposal，看一下voting——power)
+
+
+
+
+
+```{r}
+# 过滤掉参与次数较少的address
+
+token_address_num =  prop_token  %>% group_by(address) %>% summarise(number_prop= length(unique(proposal_id)))
+
+length(unique(prop_token$address))
+token_address_num %>% filter(number_prop >= 5 ) %>% dim
+token_address_num_5 = token_address_num %>% filter(number_prop >= 5 )
+
+prop_token_filter = prop_token %>% filter(address %in% token_address_num_5$address)
+
+```
+
+Nearly a half of address in the token house only participate in less than 5 proposals.
+
+
+
+# citizen house
+
+```{r}
+
+
+prop_cit = read.csv('/Users/yangyujie/hku-phd/year1 sem2/Blockchain/data/citizen_house_proposals_votes.csv')
+
+colnames(prop_cit)
+```
+
+```{r}
+apply(prop_cit,2,function(x) length(unique(x)))
+
+```
+proposal, proposal_id ，snapshot and title 是一一对应的。因此此处只保留一列即可，保留id.
+
+```{r}
+library(dplyr)
+
+
+cit_number_people =  prop_cit  %>% group_by(proposal_id) %>% summarise(number_people= length(unique(address)))
+
+table(cit_number_people$number_people)
+```
+
+cit中全部的proposal都是200人一起投票。
+
+
+```{r}
+# 过滤掉参与次数较少的address
+
+cit_address_num =  prop_cit  %>% group_by(address) %>% summarise(number_prop= length(unique(proposal_id)))
+
+length(unique(prop_cit$address))
+cit_address_num %>% filter(number_prop >= 5 ) %>% dim
+cit_address_num_5 = cit_address_num %>% filter(number_prop >= 5 )
+
+prop_cit_filter = prop_cit %>% filter(address %in% cit_address_num_5$address)
+
+```
+
+
+
+# Between token and citizen
+
+```{r}
+prop_token %>% distinct() %>% dim()
+
+prop_cit %>% distinct() %>% dim()
+
+prop_token_filter %>% distinct() %>% dim()
+
+prop_cit_filter %>% distinct() %>% dim()
+```
+两个数据表中没有重复的行。
+
+```{r}
+# 查找两列的相同元素
+
+length(intersect(unique(prop_token$address),unique(prop_cit$address)))
+
+length(intersect(unique(prop_token_filter$address),unique(prop_cit_filter$address)))
+```
+
+token$address and cit$address一一对应，有311个同时在token 和 cit中出现。（token 和 cit 的address人数各有1000个左右）
+
+
+
+
+
+# voting results
+
+```{r}
+voting_res = read.csv('/Users/yangyujie/hku-phd/year1 sem2/Blockchain/data/voting_results_summary.csv')
+
+colnames(voting_res)
+```
+
+```{r}
+apply(voting_res,2,typeof)
+```
+```{r}
+intersect(unique(prop_cit$proposal_id),unique(prop_token$proposal_id))
+length(unique(prop_cit$proposal_id))
+length(unique(prop_token$proposal_id))
+length(unique(voting_res$proposal_id))
+```
+投票结果中proposal的数量和cit+token的proposal数量对上了。
+
+
+
+
+```{r}
+length(unique(prop_token$proposal_id)) # 76
+length(intersect(unique(prop_token$proposal_id),unique(voting_res$proposal_id))) # 
+
+length(unique(prop_cit$proposal_id)) # 92
+length(intersect(unique(prop_cit$proposal_id),unique(voting_res$proposal_id))) # 59
+
+
+
+```
+voting_res的清洗有点问题,有的proposal是multiple，所以for就是0
+
+
+先不考虑 abstain 和 multiple选择的
+```{r}
+
+voting_res %>% filter(voted_choice %in% c('FOR','AGAINST')) %>% dim()
+
+prop_token_filter %>% filter(voted_choice%in% c('FOR','AGAINST')) %>% dim()
+
+prop_cit_filter %>% filter(voted_choice %in% c('FOR','AGAINST')) %>% dim()
+
+voting_res_filter =voting_res %>% filter(voted_choice %in% c('FOR','AGAINST')) 
+
+prop_token_filter = prop_token_filter %>% filter(voted_choice%in% c('FOR','AGAINST')) 
+
+prop_cit_filter = prop_cit_filter %>% filter(voted_choice %in% c('FOR','AGAINST')) 
+```
+```{r}
+#把proposal最终结果信息加入进来
+ length(intersect(unique(prop_token_filter$proposal_id),unique(voting_res_filter$proposal_id)))
+ length(intersect(unique(prop_cit_filter$proposal_id),unique(voting_res_filter$proposal_id)))
+length(unique(prop_token_filter$proposal_id))
+length(unique(prop_cit_filter$proposal_id))
+## token 和 cit中的proposal都在voting result里面
+library(plyr)
+colnames(voting_res_filter)[5] = 'proposal_choice'
+prop_token_filter_add = merge(voting_res_filter[c('proposal_id','proposal_choice')],prop_token_filter[c('address','proposal_id','voted_choice')],by = 'proposal_id')
+
+
+prop_cit_filter_add = left_join(prop_cit_filter,voting_res_filter[c('proposal_id','voted_choice')],by = 'proposal_id')
+
+dim(prop_token_filter)
+dim(prop_cit_filter)
+```
+
+
+
+
+```{r}
+prop_token_filter_add %>% filter(address == prop_token_filter_add$address[1],proposal_id == prop_token_filter_add$proposal_id[1]) 
+```
+
+
+
+```{r}
+#算token中，每两人参与了有多少共同的proposal
+token_1 = prop_token_filter %>% filter(address == unique(address)[1])
+token_2 = prop_token_filter %>% filter(address == unique(address)[2])
+token_12 = inner_join(token_1,token_2,by = 'proposal_id')
+
+length(intersect(unique(token_1$proposal_id),unique(token_2$proposal_id)))
+
+M = matrix(rep(0,length(unique(prop_token_filter$address))^2),nrow =length(unique(prop_token_filter$address)) )
+
+for (i in 1:length(unique(prop_token_filter$address))) {
+  for (j in i:length(unique(prop_token_filter$address))) {
+    token_1 = prop_token_filter %>% filter(address == unique(address)[i])
+    token_2 = prop_token_filter %>% filter(address == unique(address)[j])
+    M[i,j] = length(intersect(unique(token_1$proposal_id),unique(token_2$proposal_id)))
+
+  }
+  
+}
+
+write.csv(data.frame(M),file = '/Users/yangyujie/hku-phd/year1 sem2/Blockchain/data/M_token.csv')
+```
+
+
+
+```{r}
+#算cit中，共同参与的proposal数量
+token_1 = prop_cit_filter %>% filter(address == unique(address)[1])
+token_2 = prop_cit_filter %>% filter(address == unique(address)[2])
+token_12 = inner_join(token_1,token_2,by = 'proposal_id')
+
+length(intersect(unique(token_1$proposal_id),unique(token_2$proposal_id)))
+
+cit_M = matrix(rep(0,length(unique(prop_cit_filter$address))^2),nrow =length(unique(prop_cit_filter$address)) )
+
+for (i in 1:length(unique(prop_cit_filter$address))) {
+  for (j in i:length(unique(prop_cit_filter$address))) {
+    token_1 = prop_cit_filter %>% filter(address == unique(address)[i])
+    token_2 = prop_cit_filter %>% filter(address == unique(address)[j])
+    cit_M[i,j] = length(intersect(unique(token_1$proposal_id),unique(token_2$proposal_id)))
+
+  }
+  
+}
+
+write.csv(data.frame(cit_M),file = '/Users/yangyujie/hku-phd/year1 sem2/Blockchain/data/M_cit.csv')
+```
+
+
+把voting——res的每个proposal最终结果给清洗出来
+```{r}
+
+##  voting_res里面每个proposal的for和against票数都有。
+
+
+voting_res_final = data.frame()
+
+for (i in 1:length(unique( voting_res_filter$proposal_id))) {
+  FOR = voting_res_filter %>% filter(proposal_id == voting_res_filter$proposal_id[i]) %>% filter(proposal_choice == 'FOR')
+  AG = voting_res_filter %>% filter(proposal_id == voting_res_filter$proposal_id[i]) %>% filter(proposal_choice == 'AGAINST')
+  if (AG$voting_power%in%c(0,NA)|| length(AG$voting_power)==0|| length(FOR$voting_power)==0 || FOR$voting_power %in% c(0,NA)) {
+    next
+  }
+  else{
+  if (FOR$voting_power>AG$voting_power) {
+    voting_res_final = rbind(voting_res_final,FOR)
+  } else {
+    voting_res_final = rbind(voting_res_final,AG)
+  }
+  }
+}
+
+voting_res_final = distinct(voting_res_final)
+
+
+
+
+
+```
+
+
+```{r}
+prop_token_filter_add = left_join(prop_token_filter[c('address','proposal_id','voted_choice')],voting_res_final[c('proposal_id','proposal_choice')],by = 'proposal_id')
+
+prop_cit_filter_add = left_join(prop_cit_filter[c('address','proposal_id','voted_choice')],voting_res_final[c('proposal_id','proposal_choice')],by = 'proposal_id')
+```
+
+
+
+```{r}
+#算token and cit house中，每两个人意见一致的proposal数量。
+token_1 = prop_token_filter_add %>% filter(address == unique(address)[1])
+token_2 = prop_token_filter_add %>% filter(address == unique(address)[2])
+token_12 = inner_join(token_1,token_2,by = 'proposal_id')
+
+length(intersect(unique(token_1$proposal_id),unique(token_2$proposal_id)))
+
+M_token = matrix(rep(0,length(unique(prop_token_filter_add$address))^2),nrow =length(unique(prop_token_filter_add$address)) )
+
+for (i in 1:length(unique(prop_token_filter_add$address))) {
+  for (j in i:length(unique(prop_token_filter_add$address))) {
+    token_1 = prop_token_filter_add %>% filter(address == unique(address)[i])
+    token_1 = token_1[c('proposal_id','proposal_choice')]
+    token_2 = prop_token_filter_add %>% filter(address == unique(address)[j])
+    token_2 = token_2[c('proposal_id','proposal_choice')]
+    
+    M_token[i,j] = dim(intersect(token_1,token_2))[1]
+
+  }
+  
+}
+
+write.csv(data.frame(M_token),file = '/Users/yangyujie/hku-phd/year1 sem2/Blockchain/data/M_token_samechoice.csv')
+####
+token_1 = prop_cit_filter_add %>% filter(address == unique(address)[1])
+token_2 = prop_cit_filter_add %>% filter(address == unique(address)[2])
+token_12 = inner_join(token_1,token_2,by = 'proposal_id')
+
+length(intersect(unique(token_1$proposal_id),unique(token_2$proposal_id)))
+
+M_cit = matrix(rep(0,length(unique(prop_cit_filter_add$address))^2),nrow =length(unique(prop_cit_filter_add$address)) )
+
+for (i in 1:length(unique(prop_cit_filter_add$address))) {
+  for (j in i:length(unique(prop_cit_filter_add$address))) {
+    token_1 = prop_cit_filter_add %>% filter(address == unique(address)[i])
+    token_1 = token_1[c('proposal_id','proposal_choice')]
+    token_2 = prop_cit_filter_add %>% filter(address == unique(address)[j])
+    token_2 = token_2[c('proposal_id','proposal_choice')]
+    
+    M_cit[i,j] = dim(intersect(token_1,token_2))[1]
+
+  }
+  
+}
+
+write.csv(data.frame(M_cit),file = '/Users/yangyujie/hku-phd/year1 sem2/Blockchain/data/M_cit_samechoice.csv')
+```
+
+```{r}
+M_full = M_cit
+
+for (i in 1:dim(M_full)[1]-1) {
+  for (j in (i+1):dim(M_full)[1]) {
+    M_full[j,i] = M[i,j]
+  }
+}
+
+sum(M_full == t(M_full))
+
+dim(M_full)
+```
+
+
+# visualize
+
+```{r}
+# 安装并加载 igraph 包
+install.packages("igraph")
+library(igraph)
+
+# 示例相似性矩阵
+similarity_matrix <- M_full
+
+# 创建图对象
+g <- graph_from_adjacency_matrix(similarity_matrix, mode = "undirected", weighted = TRUE, diag = FALSE)
+
+# 设置图形布局
+layout <- layout_with_fr(g)
+
+# 设置节点颜色和大小
+V(g)$color <- "skyblue"
+V(g)$size <- 20
+
+# 设置边的宽度和颜色
+E(g)$width <- E(g)$weight * 2
+E(g)$color <- "grey"
+
+# 绘制美化后的网络图
+plot(g, layout = layout, edge.arrow.size = 0.5, vertex.label.color = "black", vertex.label.dist = 1.5)
+
+# 进行Louvain社团检测
+community <- cluster_louvain(g,resolution = 2.5) #resolution越大，社团数越多
+
+# 打印社区结构
+print(community)
+
+# 绘制网络图，按照社团进行着色
+plot(community, g, vertex.size = 15, vertex.label = NA, 
+     edge.arrow.size = 0.5, 
+     vertex.color = membership(community) + 1)
+
+
+```
+
+
+
+
+# future work
+
+先定义相似性指标，然后网络聚类。
