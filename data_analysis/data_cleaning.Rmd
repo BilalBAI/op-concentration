@@ -128,10 +128,14 @@ prop_cit_filter %>% distinct() %>% dim()
 length(intersect(unique(prop_token$address),unique(prop_cit$address)))
 
 length(intersect(unique(prop_token_filter$address),unique(prop_cit_filter$address)))
+
+length(intersect(unique(prop_token_filter$proposal_id),unique(prop_cit_filter$proposal_id)))
 ```
 
 token$address and cit$address一一对应，有311个同时在token 和 cit中出现。（token 和 cit 的address人数各有1000个左右）
 
+
+token house , cit house 中没有相同的proposal id
 
 
 
@@ -352,29 +356,51 @@ write.csv(data.frame(M_cit),file = '/Users/yangyujie/hku-phd/year1 sem2/Blockcha
 ```
 
 ```{r}
-M_full = M_cit
+# 把三角矩阵变成全矩阵
+M_cit_full = M_cit
 
-for (i in 1:dim(M_full)[1]-1) {
-  for (j in (i+1):dim(M_full)[1]) {
-    M_full[j,i] = M[i,j]
+for (i in 1:dim(M_cit_full)[1]-1) {
+  for (j in (i+1):dim(M_cit_full)[1]) {
+    M_cit_full[j,i] = M_cit[i,j]
   }
 }
 
-sum(M_full == t(M_full))
+sum(M_cit_full == t(M_cit_full))
 
-dim(M_full)
+dim(M_cit_full)
+#########
+M_token_full = M_token
+
+for (i in 1:dim(M_token_full)[1]-1) {
+  for (j in (i+1):dim(M_token_full)[1]) {
+    M_token_full[j,i] = M_token[i,j]
+  }
+}
+
+sum(M_token_full == t(M_token_full))
+
+dim(M_token_full)
 ```
 
 
 # visualize
 
 ```{r}
+M_token_tranc = M_token_full
+for (i in dim(M_token_full)[1]) {
+  for (j in dim(M_token_full)[1]) {
+    if (M_token_tranc[i,j]<= 3) {
+      M_token_tranc[i,j] = 0
+    }
+  }
+}
+
 # 安装并加载 igraph 包
-install.packages("igraph")
+#install.packages("igraph")
 library(igraph)
 
 # 示例相似性矩阵
-similarity_matrix <- M_full
+similarity_matrix <- M_token_tranc
 
 # 创建图对象
 g <- graph_from_adjacency_matrix(similarity_matrix, mode = "undirected", weighted = TRUE, diag = FALSE)
@@ -384,20 +410,42 @@ layout <- layout_with_fr(g)
 
 # 设置节点颜色和大小
 V(g)$color <- "skyblue"
-V(g)$size <- 20
+V(g)$size <- 1
 
 # 设置边的宽度和颜色
 E(g)$width <- E(g)$weight * 2
 E(g)$color <- "grey"
 
 # 绘制美化后的网络图
-plot(g, layout = layout, edge.arrow.size = 0.5, vertex.label.color = "black", vertex.label.dist = 1.5)
+plot(g, layout = layout, edge.arrow.size = 0.2, vertex.label.color = "black", vertex.label.dist = 1.5)
 
 # 进行Louvain社团检测
-community <- cluster_louvain(g,resolution = 2.5) #resolution越大，社团数越多
+community <- cluster_louvain(g,resolution = 1.5) #resolution越大，社团数越多
+
+# 使用 Leiden 算法进行社团划分
+community_leiden <- cluster_leiden(g, resolution_parameter = 2)
+
+
+### 试图进行调优参数
+best_mod = 0
+best_res = 0
+for (i in seq(0.01,3,0.01)) {
+  community <- cluster_louvain(g,resolution = i)
+  mod = modularity(community)
+  if (mod>best_mod || mod>0.1) {
+    best_mod = mod
+    best_res = i
+  }
+}
+
+community <- cluster_louvain(g,resolution = best_res)
+
+#但发现使模块度最大的参数，造成只有一个group，显然不行。
+
 
 # 打印社区结构
 print(community)
+print(community_leiden)
 
 # 绘制网络图，按照社团进行着色
 plot(community, g, vertex.size = 15, vertex.label = NA, 
@@ -407,9 +455,53 @@ plot(community, g, vertex.size = 15, vertex.label = NA,
 
 ```
 
+```{r}
+library(ggplot2)
+
+leiden_member = community_leiden$membership
+print(leiden_member)
+table(community_leiden$membership)
+
+table(community$membership)
+
+token_row_sum = rowSums(M_token_full)
+length(unique(prop_token_filter$address))# prop_token_filter中的address数量和矩阵一一对应
+
+hist(token_row_sum[leiden_member==1])
+hist(token_row_sum[leiden_member==2])
+
+hist(token_row_sum[leiden_member==3])
+
+
+
+
+K = prop_token_filter %>% filter(address == unique(address)[community$membership==2])
+sum(K$voting_power)
+
+# 150862255 128928770  91459.33 207912.1 110840.4
+```
+
 
 
 
 # future work
 
+prop_token_filter_add 有点问题
+
+token 和 cit 没有相同的proposal
+
+cit的voting power不是0，1？
+
+发现社团划分方法和参数对1个人的社团影响不大。具有鲁棒性。
+如果社团划分越多，会造成中心化指标（方差）越大，中心化程度越高。trade-off
+
 先定义相似性指标，然后网络聚类。
+
+可以改进相似性矩阵。
+
+可以考虑如何把多选的proposal信息利用上。
+
+先以社区为单位，进行逻辑回归，得到效应，然后给同一社区内所有个体赋为相同效应。然后看所有个体效应的分布。这个分布越陡峭，甚至为一条直线时，说明去中心化程度越好。所以方差或者峰度可以作为衡量中心化程度的一种指标。
+
+理想情况下，每个人的effect应该一致，即权利人人平等。
+
