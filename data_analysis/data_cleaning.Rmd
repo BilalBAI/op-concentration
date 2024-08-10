@@ -86,7 +86,7 @@ proposal, proposal_id ，snapshot and title 是一一对应的。因此此处只
 library(dplyr)
 
 
-cit_number_people =  prop_cit  %>% group_by(proposal_id) %>% summarise(number_people= length(unique(address)))
+cit_number_people =  prop_cit  %>% group_by(proposal_id) %>% summarise(number_people = length(unique(address)))
 
 table(cit_number_people$number_people)
 ```
@@ -199,10 +199,34 @@ length(unique(prop_cit_filter$proposal_id))
 ## token 和 cit中的proposal都在voting result里面
 library(plyr)
 colnames(voting_res_filter)[5] = 'proposal_choice'
-prop_token_filter_add = merge(voting_res_filter[c('proposal_id','proposal_choice')],prop_token_filter[c('address','proposal_id','voted_choice')],by = 'proposal_id')
 
 
-prop_cit_filter_add = left_join(prop_cit_filter,voting_res_filter[c('proposal_id','voted_choice')],by = 'proposal_id')
+voting_res_filter_final = data.frame() ##因为voting res filter里面一个prop id有两行数据，分别是For的票数和Ag的票数，现在需要比较大小，得出一个最终结论。
+
+for (i in 1:unique(length(voting_res_filter$proposal_id))) {
+  D = voting_res_filter %>% filter(proposal_id == unique(voting_res_filter$proposal_id)[i])
+  if(dim(D)[1]==2){
+  D_for = D %>% filter(proposal_choice=='FOR')
+  D_for_p = D_for$voting_power
+   D_Ag = D %>% filter(proposal_choice=='AGAINST')
+  D_Ag_p = D_Ag$voting_power
+  
+  if (D_for_p>D_Ag_p) {
+    voting_res_filter_final = rbind(voting_res_filter_final,D_for)
+  } else{
+    voting_res_filter_final = rbind(voting_res_filter_final,D_Ag)
+  }
+  }# end dim(D)[1]==2
+  else{
+    voting_res_filter_final = rbind(voting_res_filter_final,D)
+  }
+}
+
+prop_token_filter_add = merge(voting_res_filter_final[c('proposal_id','proposal_choice')],prop_token_filter[c('address','proposal_id','voted_choice')],by = 'proposal_id')
+
+
+prop_cit_filter_add = merge(voting_res_filter_final[c('proposal_id','proposal_choice')],prop_cit_filter[c('address','proposal_id','voted_choice')],by = 'proposal_id')
+
 
 dim(prop_token_filter)
 dim(prop_cit_filter)
@@ -266,43 +290,11 @@ write.csv(data.frame(cit_M),file = '/Users/yangyujie/hku-phd/year1 sem2/Blockcha
 ```
 
 
-把voting——res的每个proposal最终结果给清洗出来
-```{r}
 
-##  voting_res里面每个proposal的for和against票数都有。
-
-
-voting_res_final = data.frame()
-
-for (i in 1:length(unique( voting_res_filter$proposal_id))) {
-  FOR = voting_res_filter %>% filter(proposal_id == voting_res_filter$proposal_id[i]) %>% filter(proposal_choice == 'FOR')
-  AG = voting_res_filter %>% filter(proposal_id == voting_res_filter$proposal_id[i]) %>% filter(proposal_choice == 'AGAINST')
-  if (AG$voting_power%in%c(0,NA)|| length(AG$voting_power)==0|| length(FOR$voting_power)==0 || FOR$voting_power %in% c(0,NA)) {
-    next
-  }
-  else{
-  if (FOR$voting_power>AG$voting_power) {
-    voting_res_final = rbind(voting_res_final,FOR)
-  } else {
-    voting_res_final = rbind(voting_res_final,AG)
-  }
-  }
-}
-
-voting_res_final = distinct(voting_res_final)
+ 
 
 
 
-
-
-```
-
-
-```{r}
-prop_token_filter_add = left_join(prop_token_filter[c('address','proposal_id','voted_choice')],voting_res_final[c('proposal_id','proposal_choice')],by = 'proposal_id')
-
-prop_cit_filter_add = left_join(prop_cit_filter[c('address','proposal_id','voted_choice')],voting_res_final[c('proposal_id','proposal_choice')],by = 'proposal_id')
-```
 
 
 
@@ -356,12 +348,14 @@ write.csv(data.frame(M_cit),file = '/Users/yangyujie/hku-phd/year1 sem2/Blockcha
 ```
 
 ```{r}
+M_cit = read.csv(file = '/Users/yangyujie/hku-phd/year1 sem2/Blockchain/data/M_cit_samechoice.csv')
 # 把三角矩阵变成全矩阵
-M_cit_full = M_cit
+M_cit = M_cit[,-1]
+M_cit_full = as.matrix(M_cit)
 
-for (i in 1:dim(M_cit_full)[1]-1) {
-  for (j in (i+1):dim(M_cit_full)[1]) {
-    M_cit_full[j,i] = M_cit[i,j]
+for (i in 2:dim(M_cit_full)[1]) {
+  for (j in 1:(i-1)) {
+    M_cit_full[i,j] = M_cit[j,i]
   }
 }
 
@@ -369,13 +363,19 @@ sum(M_cit_full == t(M_cit_full))
 
 dim(M_cit_full)
 #########
-M_token_full = M_token
 
-for (i in 1:dim(M_token_full)[1]-1) {
-  for (j in (i+1):dim(M_token_full)[1]) {
-    M_token_full[j,i] = M_token[i,j]
+
+M_token = read.csv(file = '/Users/yangyujie/hku-phd/year1 sem2/Blockchain/data/M_token_samechoice.csv')
+# 把三角矩阵变成全矩阵
+M_token = M_token[,-1]
+M_token_full = as.matrix(M_token)
+
+for (i in 2:dim(M_token_full)[1]) {
+  for (j in 1:(i-1)) {
+    M_token_full[i,j] = M_token[j,i]
   }
 }
+
 
 sum(M_token_full == t(M_token_full))
 
@@ -457,30 +457,77 @@ plot(community, g, vertex.size = 15, vertex.label = NA,
 
 ```{r}
 library(ggplot2)
-
+Louvain_member = community$membership  #这个的效果感觉更好
 leiden_member = community_leiden$membership
-print(leiden_member)
-table(community_leiden$membership)
 
-table(community$membership)
+#print(leiden_member)
+table(Louvain_member)
+table(leiden_member)
+
+
 
 token_row_sum = rowSums(M_token_full)
 length(unique(prop_token_filter$address))# prop_token_filter中的address数量和矩阵一一对应
 
+
+
 hist(token_row_sum[leiden_member==1])
+
 hist(token_row_sum[leiden_member==2])
 
 hist(token_row_sum[leiden_member==3])
 
+hist(token_row_sum[Louvain_member==1])
 
+hist(token_row_sum[Louvain_member==2])
 
+hist(token_row_sum[Louvain_member==3])
+###
+d = prop_token_filter %>% filter(address %in% unique(address)[Louvain_member==1] )
+hist(d$voting_power)
 
-K = prop_token_filter %>% filter(address == unique(address)[community$membership==2])
-sum(K$voting_power)
+d = prop_token_filter %>% filter(address %in% unique(address)[Louvain_member==24] )
+hist(d$voting_power)
 
-# 150862255 128928770  91459.33 207912.1 110840.4
+d = prop_token_filter %>% filter(address %in% unique(address)[Louvain_member==14] )
+hist(d$voting_power)
+
 ```
 
+```{r}
+K_Lou = prop_token_filter %>% filter(address == unique(address)[Louvain_member==48])
+mean(K_Lou$voting_power)
+#1-682434.4
+K_Lei = prop_token_filter %>% filter(address == unique(address)[leiden_member==41])
+mean(K_Lei$voting_power)
+
+#1-1997128
+
+
+# 把那些一个人成一个社区的挑出来
+freq= table(Louvain_member)
+Lou_1 = as.numeric(names(freq[freq == 1]))
+
+K_Lou_1 = prop_token_filter %>% filter(address %in% unique(address)[Louvain_member%in%as.numeric(names(freq[freq == 1]))])
+
+hist(K_Lou_1$voting_power)
+###
+freq= table(leiden_member)
+Lei_1 = as.numeric(names(freq[freq == 1]))
+
+K_Lei_1 = prop_token_filter %>% filter(address %in% unique(address)[leiden_member%in%as.numeric(names(freq[freq == 1]))])
+
+hist(K_Lei_1$voting_power)
+
+
+hist(token_row_sum[leiden_member%in%Lei_1])
+
+hist(token_row_sum[Louvain_member%in%Lou_1])
+
+
+```
+
+选择Lou
 
 
 
@@ -503,5 +550,14 @@ cit的voting power不是0，1？
 
 先以社区为单位，进行逻辑回归，得到效应，然后给同一社区内所有个体赋为相同效应。然后看所有个体效应的分布。这个分布越陡峭，甚至为一条直线时，说明去中心化程度越好。所以方差或者峰度可以作为衡量中心化程度的一种指标。
 
+
 理想情况下，每个人的effect应该一致，即权利人人平等。
+
+在做反事实研究时，一个group中每个人的票都反。
+
+可以加一个参数的灵敏度分析。
+
+# question
+
+
 
