@@ -477,11 +477,11 @@ hist(token_row_sum[leiden_member==2])
 
 hist(token_row_sum[leiden_member==3])
 
-hist(token_row_sum[Louvain_member==1])
+hist(token_row_sum[Louvain_member==4])
 
-hist(token_row_sum[Louvain_member==2])
+hist(token_row_sum[Louvain_member==5])
 
-hist(token_row_sum[Louvain_member==3])
+hist(token_row_sum[Louvain_member==13])
 ###
 d = prop_token_filter %>% filter(address %in% unique(address)[Louvain_member==1] )
 hist(d$voting_power)
@@ -529,6 +529,159 @@ hist(token_row_sum[Louvain_member%in%Lou_1])
 
 选择Lou
 
+# logistics reg
+
+```{r}
+# 数据类型转换
+# 将 group 中的 "A" 转换为 1，"B" 转换为 0，其他值不变
+df_token = prop_token_filter_add
+df_token$proposal_choice_ <- ifelse(prop_token_filter_add$proposal_choice=='FOR',1,0) 
+df_token$voted_choice_ <- ifelse(prop_token_filter_add$voted_choice=='FOR',1,0) 
+```
+
+
+```{r}
+
+
+#Louvain_member
+##
+address_token = unique(prop_token_filter_add$address)
+# define a vector to store the effect of everyone
+log_eff = rep(0,length(unique(prop_token_filter_add$address)))
+for (i in 1:length(log_eff)) {
+  df = df_token %>% filter(address==address_token[i])
+  log_model <- glm(proposal_choice_ ~ voted_choice_, data = df, family = binomial)
+  log_eff[i]=log_model$coefficients[2]
+  
+}
+
+# 计算na的占比
+sum(is.na(log_eff))/length(log_eff)
+
+hist(log_eff)
+```
+
+```{r}
+# give same effect to the elements in the same group
+ad_log_eff = rep(0,length(log_eff))
+table(Louvain_member)
+max(Louvain_member)
+for (i in 1:max(Louvain_member)) {
+  if (sum(Louvain_member==i)==1) {
+    ad_log_eff[i]=mean(log_eff[i],na.rm = T)
+  }
+  else{
+    a = log_eff[Louvain_member==i]
+    a = a[!is.na(a)]
+    ad_log_eff[Louvain_member==i] = rep(mean(a,na.rm = TRUE),sum(Louvain_member==i))
+  }
+  
+}
+
+ad_log_eff
+# 出现NA是因为那一个人就是一个group，且他的效益为NA，因为他的投票和proposal完全一致。 出现-NaN是因为在拥有多个成员的group中，其中的成员效应全是NA
+#Louvain_member[ad_log_eff==-NaN]
+Louvain_member[is.nan(ad_log_eff)]
+log_eff[Louvain_member==6]
+ad_log_eff[Louvain_member==6]
+hist(ad_log_eff[!is.nan(ad_log_eff)])
+```
+
+
+```{r}
+table(Louvain_member)
+var(ad_log_eff[!is.nan(ad_log_eff)])
+
+```
+## anti-realistic
+```{r}
+
+log_eff_rev = rep(0,length(log_eff))
+
+#在转换时,还是一个一个转换
+for (i in 1:length(log_eff)) {
+  
+    prop_token_filter_rev =prop_token_filter
+    prop_token_filter_rev$voted_choice[prop_token_filter_rev$address==address_token[i]] =   ifelse(prop_token_filter_rev$voted_choice[prop_token_filter_rev$address==address_token[i]] == 'FOR','AGAINST','FOR')
+###
+voting_res_token_rev = prop_token_filter_rev %>% group_by(proposal_id)  %>% summarise(
+  For_result = sum(voting_power[voted_choice=='FOR']),
+  Against_result = sum(voting_power[voted_choice=='AGAINST']))
+
+voting_res_token_rev = voting_res_token_rev %>% mutate(
+  proposal_choice = ifelse(For_result>Against_result,'FOR','AGAINST'))
+#目前得到新的proposal结果：voting_res_token_rev
+
+    
+   
+    
+  
+#现在合并数据
+prop_token_filter_rev_add = merge(voting_res_token_rev[c('proposal_id','proposal_choice')],prop_token_filter_rev[c('address','proposal_id','voted_choice')],by = 'proposal_id')
+#转换数据类型
+df_token = prop_token_filter_rev_add
+df_token$proposal_choice_ <- ifelse(prop_token_filter_rev_add$proposal_choice=='FOR',1,0) 
+df_token$voted_choice_ <- ifelse(prop_token_filter_rev_add$voted_choice=='FOR',1,0) 
+
+
+df = df_token[df_token$address==address_token[i],]
+  log_model <- glm(proposal_choice_ ~ voted_choice_, data = df, family = binomial)
+  log_eff_rev[i]=log_model$coefficients[2]
+
+  
+  
+} # end for
+
+
+hist(log_eff_rev)
+
+
+```
+
+```{r}
+# give same effect to the elements in the same group
+ad_log_eff_rev = rep(0,length(log_eff_rev))
+table(Louvain_member)
+max(Louvain_member)
+for (i in 1:max(Louvain_member)) {
+  if (sum(Louvain_member==i)==1) {
+    ad_log_eff_rev[i]=mean(log_eff_rev[i],na.rm = T)
+  }
+  else{
+    a = log_eff_rev[Louvain_member==i]
+    a = a[!is.na(a)]
+    ad_log_eff_rev[Louvain_member==i] = rep(mean(a,na.rm = TRUE),sum(Louvain_member==i))
+  }
+  
+}
+
+ad_log_eff_rev
+# 出现NA是因为那一个人就是一个group，且他的效益为NA，因为他的投票和proposal完全一致。 出现-NaN是因为在拥有多个成员的group中，其中的成员效应全是NA
+#Louvain_member[ad_log_eff==-NaN]
+
+hist(ad_log_eff_rev[!is.nan(ad_log_eff)])
+```
+
+```{r}
+summary(log_eff_rev)
+```
+
+
+
+```{r}
+#看一下每个人的voting power总量分布
+d_vp = prop_token_filter %>% group_by(address) %>% summarise(tot_vp = sum(voting_power))
+hist(d_vp$tot_vp)
+summary(d_vp$tot_vp)
+```
+
+
+```{r}
+save.image(file = "my_workspace.RData")
+# 加载之前保存的工作空间
+load("my_workspace.RData")
+
+```
 
 
 # future work
@@ -556,6 +709,8 @@ cit的voting power不是0，1？
 在做反事实研究时，一个group中每个人的票都反。
 
 可以加一个参数的灵敏度分析。
+
+综合考虑：可以把token和cit的数据合并，做逻辑回归。
 
 # question
 
